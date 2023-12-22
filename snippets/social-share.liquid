@@ -43,4 +43,15 @@
       </a>
     </li>
   {%- endunless %}
+  
+ <div class="whatsapp_share_login"> 
+         <!-- WhatsApp Share Button HTML -->
+      <div><a class="btn btn-small" href="https://api.whatsapp.com/send?text=Check%20out%20this%20product:%20{{ product.title | url_encode }}%20for%20{{ product.price | money_with_currency }}%20at%20{{ shop.url }}{{ product.url }}" target="_blank" rel="noopener">
+      {% render 'icon-whatsapp' %}     
+      </a>
+      </div>
+ </div>
 </ul>
+
+
+

@@ -2,11 +2,535 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "4f3d3ee3-51c4-4ef0-a878-eb4f336f26ee": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21514492903718__4f3d3ee3-51c4-4ef0-a878-eb4f336f26ee-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Tyre for every bike, every ride & every terrain",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "template--21514492903718__4f3d3ee3-51c4-4ef0-a878-eb4f336f26ee-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Enterprise, we're committed to designing and engineering the most innovative mountain equipment in the world.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--21514492903718__4f3d3ee3-51c4-4ef0-a878-eb4f336f26ee-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__4f3d3ee3-51c4-4ef0-a878-eb4f336f26ee-heading-1",
+        "template--21514492903718__4f3d3ee3-51c4-4ef0-a878-eb4f336f26ee-text-1",
+        "template--21514492903718__4f3d3ee3-51c4-4ef0-a878-eb4f336f26ee-button-1"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/b3a4a7b3-8b76-4996-a4e9-4b1d4a14bcc2_babsi-hero-2800x1200px_LO.webp",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": false
+      }
+    },
+    "5a3c0aa5-f2df-4645-8d91-19de443dbd8e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Here at Enterprise, it's all about mountain sports. We share the same experiences that you do on rock, ice, and snow and these experiences push us to make the best equipment and apparel possible for our worldwide community.",
+            "heading_size": "h4",
+            "heading_h1": true
+          }
+        },
+        "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our passion for innovation transforms the way we pursue mountain sports—a heritage that began with a backyard anvil and hammer and continues today, hitting milestones along the way with revolutionary equipment such as the world’s first wire gate carabiner, or our cornerstone Camalots.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-subheading-1",
+        "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-heading-1",
+        "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-text-1",
+        "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-button-1"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": true
+      }
+    },
+    "8732b8b6-568f-4741-aedb-479607f380b9": {
+      "type": "video",
+      "blocks": {
+        "template--21514492903718__8732b8b6-568f-4741-aedb-479607f380b9-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21514492903718__8732b8b6-568f-4741-aedb-479607f380b9-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__8732b8b6-568f-4741-aedb-479607f380b9-heading-1",
+        "template--21514492903718__8732b8b6-568f-4741-aedb-479607f380b9-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_external": "https:\/\/youtu.be\/gLz0XVtDX6A",
+        "video_description": "",
+        "video_size": "md",
+        "video_autoplay": true,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
+    "69cd29c7-3006-4551-974f-c6e1287bc1c1": {
+      "type": "background-video",
+      "blocks": {
+        "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Background Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-heading-1",
+        "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-text-1",
+        "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-button-1"
+      ],
+      "settings": {
+        "video_external": "https:\/\/youtu.be\/caeMyMFEYvU",
+        "video_description": "",
+        "video_height": "md",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "lazyload": true,
+        "prevent_animation": false
+      }
+    },
+    "e78af6f6-6a92-401b-a9a2-8530cd028ac0": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "template--21514492903718__e78af6f6-6a92-401b-a9a2-8530cd028ac0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Tell customers about a promotion or make an announcement",
+            "link": "",
+            "font": "heading",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__e78af6f6-6a92-401b-a9a2-8530cd028ac0-text-1"
+      ],
+      "settings": {
+        "section_height": "medium",
+        "spacing": 40,
+        "speed": 24,
+        "direction": "normal",
+        "pausable": true,
+        "color_scheme": "2",
+        "dividers": "border-top border-bottom",
+        "prevent_animation": false
+      }
+    },
+    "5ab543ea-603b-4281-9ae5-e41f12790533": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Media with text",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Optional button",
+            "button_link": "",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-heading-1",
+        "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-text-1",
+        "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1cfc23db-e82c-49af-b6e8-98ae54b5c4df_heritage-pull-quote-v2_CROP--K98UZvHI-transformed_ALT_LO.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none"
+      }
+    },
+    "64127b1c-3665-4231-94af-1bc3562b88e4": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21514492903718__64127b1c-3665-4231-94af-1bc3562b88e4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Enterprise <br> vision",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21514492903718__64127b1c-3665-4231-94af-1bc3562b88e4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To engineeer and empower the future of mountain sports, and be one with the communitites we serve.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--21514492903718__64127b1c-3665-4231-94af-1bc3562b88e4-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__64127b1c-3665-4231-94af-1bc3562b88e4-heading-1",
+        "template--21514492903718__64127b1c-3665-4231-94af-1bc3562b88e4-text-1",
+        "template--21514492903718__64127b1c-3665-4231-94af-1bc3562b88e4-button-1"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/reise_website_subbrand_cards_with_revised_subheadline_copy-08.jpg",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": false
+      }
+    },
+    "c226c63e-f85d-4df8-9cd5-bb0ed1330a67": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21514492903718__c226c63e-f85d-4df8-9cd5-bb0ed1330a67-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Heritage",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "68fbd1dd-4d1e-4473-adac-42fffc75feab": {
+          "type": "subheading",
+          "settings": {
+            "text": "You can’t tell the history of climbing and mountain sports without telling the history of Enterprise."
+          }
+        },
+        "template--21514492903718__c226c63e-f85d-4df8-9cd5-bb0ed1330a67-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enterprise was born from Chouinard Equipment and was a natural continuation of the passion and ethos that Yvon Chouinard and his friends started in 1965. Peter Metcalf and the employees of Chouinard Equipment took over in 1989, changed the name to Black Diamond and moved to Salt Lake City, to be at the base of the Wasatch mountains.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--21514492903718__c226c63e-f85d-4df8-9cd5-bb0ed1330a67-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Optional button",
+            "button_link": "",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__c226c63e-f85d-4df8-9cd5-bb0ed1330a67-heading-1",
+        "68fbd1dd-4d1e-4473-adac-42fffc75feab",
+        "template--21514492903718__c226c63e-f85d-4df8-9cd5-bb0ed1330a67-text-1",
+        "template--21514492903718__c226c63e-f85d-4df8-9cd5-bb0ed1330a67-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/spidi-dp-progressive-leather-p229-011.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none"
+      }
+    },
+    "40d3c10e-a02c-4bb8-b894-1390adf5481e": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "template--21514492903718__40d3c10e-a02c-4bb8-b894-1390adf5481e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Tell customers about a promotion or make an announcement",
+            "link": "",
+            "font": "heading",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__40d3c10e-a02c-4bb8-b894-1390adf5481e-text-1"
+      ],
+      "settings": {
+        "section_height": "medium",
+        "spacing": 40,
+        "speed": 24,
+        "direction": "normal",
+        "pausable": true,
+        "color_scheme": "2",
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "bcd8171c-51a7-4a48-9304-7663dfc22a47": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21514492903718__bcd8171c-51a7-4a48-9304-7663dfc22a47-column-1": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/e1cd5e98-7d3b-4f5e-8a7f-05eca66ab87d_262315_0000_NOCOLOR_CAMALOTC4-5_Closed_GLAM_CROP_LO.webp",
+            "media_scale": 100,
+            "heading": "DESIGN ETHOS: THE FUSION OF SOUL & TECH",
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "template--21514492903718__bcd8171c-51a7-4a48-9304-7663dfc22a47-column-2": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/1cfc23db-e82c-49af-b6e8-98ae54b5c4df_heritage-pull-quote-v2_CROP--K98UZvHI-transformed_ALT_LO.jpg",
+            "media_scale": 100,
+            "heading": "DESIGN ETHOS: THE FUSION OF SOUL & TECH",
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections"
+          }
+        },
+        "template--21514492903718__bcd8171c-51a7-4a48-9304-7663dfc22a47-column-3": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/nandu-vasudevan-zRw8fUdAvIo-unsplash.jpg",
+            "media_scale": 100,
+            "heading": "THE FUSION OF SOUL & TECH",
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__bcd8171c-51a7-4a48-9304-7663dfc22a47-column-1",
+        "template--21514492903718__bcd8171c-51a7-4a48-9304-7663dfc22a47-column-2",
+        "template--21514492903718__bcd8171c-51a7-4a48-9304-7663dfc22a47-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "\/",
+        "layout": "carousel",
+        "column_size": "medium",
+        "column_align": "left",
+        "image_ratio": "1",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "26a29111-edc5-4635-ae12-0f76cbaa44b6": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21514492903718__26a29111-edc5-4635-ae12-0f76cbaa44b6-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21514492903718__26a29111-edc5-4635-ae12-0f76cbaa44b6-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21514492903718__26a29111-edc5-4635-ae12-0f76cbaa44b6-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514492903718__26a29111-edc5-4635-ae12-0f76cbaa44b6-heading-1",
+        "template--21514492903718__26a29111-edc5-4635-ae12-0f76cbaa44b6-text-1",
+        "template--21514492903718__26a29111-edc5-4635-ae12-0f76cbaa44b6-button-1"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/62c218db-eb16-46ca-9e39-192d6cbea657_adam_c_20200724_12356_LO.jpg",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4f3d3ee3-51c4-4ef0-a878-eb4f336f26ee",
+    "5a3c0aa5-f2df-4645-8d91-19de443dbd8e",
+    "8732b8b6-568f-4741-aedb-479607f380b9",
+    "69cd29c7-3006-4551-974f-c6e1287bc1c1",
+    "e78af6f6-6a92-401b-a9a2-8530cd028ac0",
+    "5ab543ea-603b-4281-9ae5-e41f12790533",
+    "64127b1c-3665-4231-94af-1bc3562b88e4",
+    "c226c63e-f85d-4df8-9cd5-bb0ed1330a67",
+    "40d3c10e-a02c-4bb8-b894-1390adf5481e",
+    "bcd8171c-51a7-4a48-9304-7663dfc22a47",
+    "26a29111-edc5-4635-ae12-0f76cbaa44b6"
   ]
 }

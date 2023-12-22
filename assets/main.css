@@ -369,6 +369,9 @@ summary::-webkit-details-marker {
   }
 }
 @media (min-width: 769px) {
+    .product-info__block {
+    margin: 9px !important;
+  }
   .section__block + .section__block--button {
     margin-top: calc(8 * var(--space-unit));
   }
@@ -4455,3 +4458,6 @@ label[data-swatch]::before {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 }
+
+
+

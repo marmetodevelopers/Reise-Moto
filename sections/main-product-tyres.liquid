@@ -92,7 +92,7 @@
   <script src="{{ 'product-model.js' | asset_url }}" defer></script>
 {%- endif -%}
 
-<div class="container">
+<div class="container typres_container_product">
   <div class="product js-product" data-section="{{ section.id }}">
     <div id="product-media" class="product-media product-media--{{ section.settings.media_layout }}">
       {%- if product.media.size > 0 -%}
@@ -323,6 +323,34 @@
               {% render ‘hulkapps-wishlist-product-btn’ %}
             </div>
 
+          {%- when 'product-tabs' -%}
+            <div class="product_tabs_container">
+              <div class="product_tabs_wrapper">
+                <div class="heading_container">
+                  <div class="tab" data-tab="tab1">{{ block.settings.tab_heading_one }}</div>
+                  <div class="tab active" data-tab="tab2">{{ block.settings.tab_heading_two }}</div>
+                </div>
+                <div class="tab_content" id="tab1">
+                  {% assign tab1 = product.metafields.custom.product_specs_id.value %}
+                  <div class="meta_object_content">
+                    <div class="product_id_key">
+                      {% for tabvalue in tab1.product_specs_id.value %}
+                        <p>{{ tabvalue }}</p>
+                      {% endfor %}
+                    </div>
+                    <div class="product_key_values">
+                      {% for tab2 in tab1.product_specs_key.value %}
+                        <p>{{ tab2 }}</p>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+                <div class="tab_content active" id="tab2">
+                  {{ product.metafields.custom.vehicle_compatibility | metafield_tag }}
+                </div>
+              </div>
+            </div>
+
           {%- when 'complementary' -%}
             <div class="product-info__block" {{ block.shopify_attributes }}>
               {%- liquid
@@ -338,6 +366,7 @@
                 grid_classes: grid_classes
               -%}
             </div>
+
           {%- when 'collapsible-content' -%}
             <details-disclosure {{ block.shopify_attributes }}>
               <details
@@ -707,7 +736,7 @@
 
 {% schema %}
 {
-  "name": "Product",
+  "name": "Product tyres",
   "class": "cc-main-product product-main",
   "settings": [
     {
@@ -1058,6 +1087,23 @@
     {
       "type": "@app"
     },
+     {
+      "type": "product-tabs",
+      "name": "Product Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_heading_one",
+          "label": "Tab Heading 1"
+        },
+         {
+          "type": "text",
+          "id": "tab_heading_two",
+          "label": "Tab Heading 2"
+        }
+      ]
+    },
+
     {
       "type": "buy-buttons",
       "name": "Buy buttons",
