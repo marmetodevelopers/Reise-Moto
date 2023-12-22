@@ -219,3 +219,6 @@ a#viewMoreButton {
 .product_image_svg_container {
   margin-bottom: 22px;
 }
+variant-picker.no-js-hidden{
+  width: 100%;
+}
