@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "6762a37a-acce-4d98-af23-7c4304d01b8c": {
+      "type": "video",
+      "blocks": {
+        "template--21171977421094__6762a37a-acce-4d98-af23-7c4304d01b8c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21171977421094__6762a37a-acce-4d98-af23-7c4304d01b8c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21171977421094__6762a37a-acce-4d98-af23-7c4304d01b8c-text-1",
+        "template--21171977421094__6762a37a-acce-4d98-af23-7c4304d01b8c-heading-1"
+      ],
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "video_size": "md",
+        "video_autoplay": true,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "featured_image_width": "page",
+        "heading_align": "text-center",
+        "show_share_buttons": true,
+        "pagination": "bar-reading"
+      }
+    },
+    "article-comments": {
+      "type": "article-comments",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "6762a37a-acce-4d98-af23-7c4304d01b8c",
+    "main",
+    "article-comments"
+  ]
+}
