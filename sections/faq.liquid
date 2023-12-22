@@ -19,49 +19,109 @@
   <div class="container">
 {%- endunless -%}
 
-<div class="section{% unless bg_color == false %} section--padded{% if section.settings.full_width %} section--full-width{% endif %}{% endunless %}{% unless color_scheme == 'none' %} color-scheme color-scheme--{{ color_scheme }}{% endunless %}" id="{{ section.id }}">
+<div
+  class="section{% unless bg_color == false %} section--padded{% if section.settings.full_width %} section--full-width{% endif %}{% endunless %}{% unless color_scheme == 'none' %} color-scheme color-scheme--{{ color_scheme }}{% endunless %}"
+  id="{{ section.id }}"
+>
   <div class="container">
-    <div class="reading-width"{% if settings.animations_enabled != "disabled" %} data-cc-animate{% endif %}>
+    <div
+      class="reading-width"
+      {% if settings.animations_enabled != 'disabled' %}
+        data-cc-animate
+      {% endif %}
+    >
       {%- if section.settings.heading != blank -%}
-        <h2 class="h4 section__heading mb-12 {{ section.settings.heading_align }}">{{ section.settings.heading | escape }}</h2>
+        <h2 class="h4 section__heading mb-12 {{ section.settings.heading_align }}">
+          {{ section.settings.heading | escape }}
+        </h2>
       {%- endif -%}
 
       {%- for block in section.blocks -%}
         {%- if block.type == 'category' -%}
-          <h3 class="text-h5 font-body font-bold{% unless forloop.first %} mt-16{% endunless %} mb-6" {{ block.shopify_attributes }}>{{ block.settings.text }}</h3>
+          <h3
+            class="text-h5 font-body font-bold{% unless forloop.first %} mt-16{% endunless %} mb-6"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.text }}
+          </h3>
         {%- elsif block.type == 'button' -%}
           <div class="{% unless forloop.first %} mt-6{% endunless %} mb-6" {{ block.shopify_attributes }}>
-            <a class="{{ block.settings.button_style }}" {% if block.settings.button_link != blank %}href="{{ block.settings.button_link }}"{% else %}role="link" aria-disabled="true"{% endif %}>
+            <a
+              class="{{ block.settings.button_style }}"
+              {% if block.settings.button_link != blank %}
+                href="{{ block.settings.button_link }}"
+              {% else %}
+                role="link" aria-disabled="true"
+              {% endif %}
+            >
               {{- block.settings.button_label | escape -}}
             </a>
           </div>
+
+        {% else %}
+          {% if block.settings.heading == 'Description' or block.settings.heading == 'Material Specification' %}
+            <details-disclosure>
+              <details class="disclosure disclosure--row">
+                <summary>
+                  <div class="flex justify-between items-center">
+                    <h4 class="disclosure__title h6 font-body flex flex-auto items-center mb-0 text-current">
+                      {%- if block.settings.icon != 'none' -%}
+                        {% render 'icon', icon: block.settings.icon, width: 22, height: 22 %}
+                      {%- endif -%}
+                      {{- block.settings.heading -}}
+                    </h4>
+                    <span class="disclosure__toggle">
+                      {%- if settings.disclosure_toggle == 'plus' -%}
+                        {% render 'icon-plus' %}
+                      {%- else -%}
+                        {% render 'icon-chevron-down' %}
+                      {%- endif -%}
+                    </span>
+                  </div>
+                </summary>
+                <div class="disclosure__panel has-motion">
+                  <div class="disclosure__content rte product_description">
+                    {% if block.settings.heading == 'Description' %}
+                      {{ product.description }}
+                    {% endif %}
+                    {% if block.settings.heading == 'Material Specification' %}
+                      {{ block.settings.text }}
+                    {% endif %}
+                  </div>
+                </div>
+              </details>
+            </details-disclosure>
+          {% endif %}
+
         {%- else -%}
-          <details-disclosure>
-            <details class="disclosure disclosure--row">
-              <summary>
-                <div class="flex justify-between items-center">
-                  <h4 class="disclosure__title h6 font-body flex flex-auto items-center mb-0 text-current">
-                    {%- if block.settings.icon != 'none' -%}
-                      {% render 'icon', icon: block.settings.icon, width: 22, height: 22 %}
-                    {%- endif -%}
-                    {{- block.settings.heading -}}
-                  </h4>
-                  <span class="disclosure__toggle">
-                    {%- if settings.disclosure_toggle == 'plus' -%}
-                      {% render 'icon-plus' %}
-                    {%- else -%}
-                      {% render 'icon-chevron-down' %}
-                    {%- endif -%}
-                  </span>
+          {% if block.settings.heading == 'Material Specification' %}
+            <details-disclosure>
+              <details class="disclosure disclosure--row">
+                <summary>
+                  <div class="flex justify-between items-center">
+                    <h4 class="disclosure__title h6 font-body flex flex-auto items-center mb-0 text-current">
+                      {%- if block.settings.icon != 'none' -%}
+                        {% render 'icon', icon: block.settings.icon, width: 22, height: 22 %}
+                      {%- endif -%}
+                      {{- block.settings.heading -}}
+                    </h4>
+                    <span class="disclosure__toggle">
+                      {%- if settings.disclosure_toggle == 'plus' -%}
+                        {% render 'icon-plus' %}
+                      {%- else -%}
+                        {% render 'icon-chevron-down' %}
+                      {%- endif -%}
+                    </span>
+                  </div>
+                </summary>
+                <div class="disclosure__panel has-motion">
+                  <div class="disclosure__content rte">
+                    {{ block.settings.text }}
+                  </div>
                 </div>
-              </summary>
-              <div class="disclosure__panel has-motion">
-                <div class="disclosure__content rte">
-                  {{ block.settings.text }}
-                </div>
-              </div>
-            </details>
-          </details-disclosure>
+              </details>
+            </details-disclosure>
+          {% endif %}
         {%- endif -%}
       {%- endfor -%}
     </div>

@@ -112,6 +112,7 @@
           <ul class="grid {% if section.settings.filters_open_lg %}{{ grid_classes_filters_open }}{% else %}{{ grid_classes_filters_closed }}{% endif %} gap-x-theme {% if settings.card_contain %}gap-y-8{% else %}gap-y-16{% endif %}{% unless paginate.pages > 1 %} mb-8 md:mb-12{% endunless %}"
               data-filters-open-classes="grid {{ grid_classes_filters_open }} gap-x-theme {% if settings.card_contain %}gap-y-8{% else %}gap-y-16{% endif %}"
               data-filters-closed-classes="grid {{ grid_classes_filters_closed }} gap-x-theme {% if settings.card_contain %}gap-y-8{% else %}gap-y-16{% endif %}{% unless paginate.pages > 1 %} mb-8 md:mb-12{% endunless %}" role="list">
+          
             {%- comment -%}Process wide promos aligned top{%- endcomment -%}
             {%- for block in section.blocks -%}
               {%- liquid
@@ -127,7 +128,8 @@
 
               {%- if show_promo -%}
                 <li class="promo-item--{{ block.settings.view }} col-span-full" style="--promo-text-color: {{- block.settings.text_color -}};--promo-min-height: {{- block.settings.min_height -}}px;--promo-overlay-color: rgba({{ block.settings.tint_color.red }}, {{ block.settings.tint_color.green }}, {{ block.settings.tint_color.blue }}, {{ block.settings.tint_opacity | divided_by: 100.0 }});">
-                  {%-
+                  
+                {%-
                     render 'promo-image',
                       link_url: block.settings.link_url,
                       content: block.settings.content,
@@ -168,7 +170,8 @@
                 {%- if is_last_position -%}
                   {%- unless rendered_product_ids contains product.id -%}
                     {%- assign rendered_product_ids = rendered_product_ids | append: product.id | append: "," -%}
-                    <li>{% render 'product-card', product: product, collection: collection, image_ratio: image_ratio, show_compare: settings.enable_compare %}</li>
+                    <li>
+                    {% render 'product-card', product: product, collection: collection, image_ratio: image_ratio, show_compare: settings.enable_compare %}</li>
                   {%- endunless -%}
                 {%- endif -%}
 

@@ -90,7 +90,8 @@
       </div>
     {%- endif -%}
 
-    <div class="header__icons flex justify-end mis-auto js-closes-menu">
+<div class="header__icons flex justify-end mis-auto js-closes-menu">
+  {% render 'hulkapps-wishlist-header-icon' %}
       {%- if section.settings.enable_search and search_is_minimised -%}
         <a class="header__icon {% if section.settings.minimise_search_mobile and section.settings.minimise_search_desktop == false %}md:hidden {% elsif section.settings.minimise_search_mobile == false and section.settings.minimise_search_desktop %}hidden md:block{% endif %} js-show-search" href="{{ routes.search_url }}" aria-controls="search-bar">
           {% render 'icon-search' %}

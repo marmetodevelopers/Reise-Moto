@@ -2,37 +2,110 @@
   "type": "footer",
   "name": "Footer Group",
   "sections": {
-    "footer": {
-      "type": "footer",
+    "a27c2793-9fd6-492a-96cd-6d7cb5aeb16a": {
+      "type": "icons-with-text",
       "blocks": {
-        "text": {
-          "type": "text",
+        "sections--21357809762598__a27c2793-9fd6-492a-96cd-6d7cb5aeb16a-item-1": {
+          "type": "item",
           "settings": {
+            "icon": "truck",
+            "heading": "Free shipping",
+            "text": "<p>On all orders over $100<\/p>",
+            "link": ""
           }
         },
-        "link-list-1": {
-          "type": "link_list",
+        "sections--21357809762598__a27c2793-9fd6-492a-96cd-6d7cb5aeb16a-item-2": {
+          "type": "item",
           "settings": {
+            "icon": "price_tag",
+            "heading": "Special offers",
+            "text": "<p>Regular sales and discounts<\/p>",
+            "link": ""
           }
         },
-        "link-list-2": {
-          "type": "link_list",
+        "sections--21357809762598__a27c2793-9fd6-492a-96cd-6d7cb5aeb16a-item-3": {
+          "type": "item",
           "settings": {
+            "icon": "return",
+            "heading": "Easy returns",
+            "text": "<p>Hassle free returns policy<\/p>",
+            "link": ""
           }
         },
-        "newsletter": {
-          "type": "newsletter",
+        "sections--21357809762598__a27c2793-9fd6-492a-96cd-6d7cb5aeb16a-item-4": {
+          "type": "item",
           "settings": {
+            "icon": "chat_bubble",
+            "heading": "Chat facility",
+            "text": "<p>Talk to a real person<\/p>",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "text",
-        "link-list-1",
-        "link-list-2",
-        "newsletter"
+        "sections--21357809762598__a27c2793-9fd6-492a-96cd-6d7cb5aeb16a-item-1",
+        "sections--21357809762598__a27c2793-9fd6-492a-96cd-6d7cb5aeb16a-item-2",
+        "sections--21357809762598__a27c2793-9fd6-492a-96cd-6d7cb5aeb16a-item-3",
+        "sections--21357809762598__a27c2793-9fd6-492a-96cd-6d7cb5aeb16a-item-4"
       ],
       "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "above",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "e1257756-517f-4e33-8763-6a36d738d6c3": {
+      "type": "promo-strip",
+      "blocks": {
+        "sections--21357809762598__e1257756-517f-4e33-8763-6a36d738d6c3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a member & get 10% off!",
+            "heading_size": "h4",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "sections--21357809762598__e1257756-517f-4e33-8763-6a36d738d6c3-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share something special with your customers.<\/p>",
+            "enlarge_text": true,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "sections--21357809762598__e1257756-517f-4e33-8763-6a36d738d6c3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "sign up for free",
+            "button_link": "",
+            "button_style": "btn btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "sections--21357809762598__e1257756-517f-4e33-8763-6a36d738d6c3-heading-1",
+        "sections--21357809762598__e1257756-517f-4e33-8763-6a36d738d6c3-text-1",
+        "sections--21357809762598__e1257756-517f-4e33-8763-6a36d738d6c3-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "default",
+        "color_scheme": "3",
+        "full_width": true,
+        "dividers": "border-top",
+        "prevent_animation": false
       }
     },
     "icons-with-text": {
@@ -43,7 +116,8 @@
           "settings": {
             "icon": "chat_bubble",
             "heading": "Visit our support center",
-            "text": "<p>Expert help & advice<\/p>"
+            "text": "<p>Expert help & advice<\/p>",
+            "link": ""
           }
         },
         "icons-with-text-2": {
@@ -51,7 +125,8 @@
           "settings": {
             "icon": "box",
             "heading": "Check your order status",
-            "text": "<p>Updates & tracking<\/p>"
+            "text": "<p>Updates & tracking<\/p>",
+            "link": ""
           }
         },
         "icons-with-text-3": {
@@ -59,7 +134,8 @@
           "settings": {
             "icon": "return",
             "heading": "Returns & exchanges",
-            "text": "<p>All you need to know<\/p>"
+            "text": "<p>All you need to know<\/p>",
+            "link": ""
           }
         },
         "icons-with-text-4": {
@@ -67,7 +143,8 @@
           "settings": {
             "icon": "dollar_sign",
             "heading": "Price-match guarantee",
-            "text": "<p>Our promise to you<\/p>"
+            "text": "<p>Our promise to you<\/p>",
+            "link": ""
           }
         }
       },
@@ -77,14 +154,81 @@
         "icons-with-text-3",
         "icons-with-text-4"
       ],
+      "disabled": true,
       "settings": {
+        "heading": "",
+        "heading_align": "text-start",
         "icon_size": 36,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
         "section_height": "small",
-        "dividers": "border-top"
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "border-top",
+        "prevent_animation": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo.png",
+            "image_width": 100,
+            "heading": "",
+            "text": "<p>Welcome to the world of Reise two-wheeler tyres. Reise is a German word for “Trip” made with Indo-European R&D and technology. It inspiresconfidence. Confidence in you, your ability, your machine, and your tyres.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "show_social": true,
+            "text_align": "text-start"
+          }
+        },
+        "link-list-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Footer links",
+            "menu": "footer"
+          }
+        },
+        "link-list-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Policies",
+            "menu": "policies"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Newsletter",
+            "text": "<p>Sign up for exclusive offers, original stories, events and more.<\/p>",
+            "collapse_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "link-list-1",
+        "link-list-2",
+        "newsletter"
+      ],
+      "settings": {
+        "show_back_to_top": true,
+        "show_payment_icons": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "secondary_menu": "",
+        "bg_color": "#000000",
+        "text_color": "#ffc20e"
       }
     }
   },
   "order": [
+    "a27c2793-9fd6-492a-96cd-6d7cb5aeb16a",
+    "e1257756-517f-4e33-8763-6a36d738d6c3",
     "icons-with-text",
     "footer"
   ]

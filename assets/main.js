@@ -1837,3 +1837,34 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+
+
+
+
+// Get all tabs and their respective content
+
+const tabs = document.querySelectorAll('.tab');
+const tabContents = document.querySelectorAll('.tab_content');
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    const tabId = tab.getAttribute('data-tab');
+
+    const selectedTabContent = document.getElementById(tabId);
+    if (selectedTabContent) {
+      const isActive = selectedTabContent.classList.contains('active');
+      
+      tabs.forEach(t => t.classList.remove('active'));
+      tabContents.forEach(content => {
+        content.classList.remove('active');
+      });
+      
+      if (!isActive) {
+        selectedTabContent.classList.add('active');
+        tab.classList.add('active'); 
+      }
+    }
+  });
+});
+

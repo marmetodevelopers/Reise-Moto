@@ -95,6 +95,7 @@
 -%}
 
 {%- if product and product != empty -%}
+
   <product-card class="card card--product{{ card_class }} h-full{% if settings.card_contain %} card--product-contained{% endif %}{% unless settings.show_dividers %} card--no-lines{% endunless %}{% if show_compare %} card--product-compare{% endif %} relative flex">
 
     {%- if show_compare -%}
@@ -168,16 +169,22 @@
     <div class="card__info-container flex flex-col flex-auto relative">
       <div class="card__info w-full">
         <div class="card__info-inner inline-block w-full">
-          {%- if settings.card_show_vendor -%}
+  <div class="product_wishlist">
+   {%- if settings.card_show_vendor -%}
             <p class="card__vendor{% if settings.show_dividers %} mb-1{% else %} mb-0{% endif %} text-sm text-theme-light">
               {{- product.vendor -}}
             </p>
           {%- endif -%}
+              {% render 'hulkapps-wishlist-collection-btn', productId: product.id, variantId: product.selected_or_first_available_variant.id %}
+
+  </div>
+         
 
           <p class="card__title font-bold{% if settings.show_dividers %} mb-1{% else %} mt-1 mb-0{% endif %}">
             <a href="{{ product_url }}" class="card-link text-current js-prod-link">
               {{- product.title | escape -}}
             </a>
+            <div class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists' product:product %}</div>
           </p>
 
           {%- if settings.card_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
@@ -275,6 +282,7 @@
             -%}
 
             {%- unless inventory_level == 'hide' -%}
+              
               <div class="{% if settings.show_dividers %}mt-3 border-top pt-3{% else %}pt-5{% endif %} text-xs product-inventory__status" data-inventory-level="{{ inventory_level }}">
                 {%- if inventory_level == 'very_low' -%}
                   {{ 'products.inventory.very_low_stock' | t }}
@@ -300,6 +308,7 @@
 
       {%- if settings.enable_quick_add and disable_quickbuy != true -%}
         <div class="card__quick-add
+        
           {% if settings.card_atc_mobile == "text_button_bottom" %}mob:card__quick-add--below{% endif %}
           {% if settings.card_atc_mobile == "icon" %}mob:card__quick-add--icon{% endif %}
           {% if settings.card_atc_desktop == "text_button_bottom" %}desktop:card__quick-add--below{% endif %}
@@ -309,6 +318,7 @@
 
           {%- if product.has_only_default_variant and product_not_for_sale == false -%}
             <product-form>
+            
               <div class="alert mb-8 bg-error-bg text-error-text js-form-error text-start" role="alert" hidden></div>
               {%- form 'product', product, class: 'js-product-form', id: product_form_id, novalidate: 'novalidate' -%}
                 <input type="hidden" name="id" value="{{ current_variant.id }}" disabled>
@@ -321,7 +331,7 @@
                   {%- endif -%}
                 {%- endcapture -%}
 
-                <button class="btn btn--primary w-full"
+                <button class="btn btn--primary w-full soldout_btn"
                         data-add-to-cart-text="{{- button_text | escape -}}"
                         name="add"
                         aria-haspopup="dialog"
@@ -331,7 +341,7 @@
                     {% render 'icon-add-to-cart' %}
                   </span>
                   <span class="quick-add-btn-text">
-                    {{- button_text -}}
+                   SOLD OUT
                   </span>
                 </button>
                 <a href="{{ product_url }}" class="btn btn--secondary quick-add-view-btn">

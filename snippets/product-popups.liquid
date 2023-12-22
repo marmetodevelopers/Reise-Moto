@@ -19,11 +19,7 @@
             <span class="visually-hidden">{{ 'accessibility.close' | t }}</span>
           </button>
           <div class="modal__content flex-auto h-full rte">
-            {%- if block.settings.page != blank -%}
-              <h1 class="h2">{{ block.settings.page.title }}</h1>
-            {%- endif -%}
-            {{ block.settings.text }}
-            {{ block.settings.page.content }}
+            <img src="{{ product.metafields.custom.size_guide | image_url }}" alt="{{ product.title }}"/>
           </div>
         </div>
       </modal-dialog>
