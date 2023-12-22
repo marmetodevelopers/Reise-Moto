@@ -141,9 +141,10 @@
 
             {%- when 'title' -%}
               <div class="product-info__block product-info__block--sm product-info__title" {{ block.shopify_attributes }}>
-                <h2 class="product-title h4">
+                <h2 class="product-title h4 product_title_feature_product">
                   {%- if product.title != blank -%}
                     <a href="{{ product.url }}" class="text-current">{{ product.title | escape }}</a>
+                    <div class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists' product:product %}</div>
                   {%- else -%}
                     {{ 'onboarding.product.title' | t }}
                   {%- endif -%}

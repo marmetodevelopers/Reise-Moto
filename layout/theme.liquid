@@ -22,6 +22,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% if rtl %}rtl{% else %}ltr{% endif %}">
 <head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   {%- render 'doc-head-core' -%}
   {%- render 'doc-head-social' -%}
 
@@ -269,6 +270,7 @@
     <link rel="stylesheet" href="{{ 'swatches.css' | asset_url }}" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="{{ 'swatches.css' | asset_url }}"></noscript>
   {%- endif -%}
+  {{ 'custom.css' | asset_url |stylesheet_tag }}
 
   {{ content_for_header }}
 
@@ -475,5 +477,17 @@
     <script src="{{ 'instant-page.js' | asset_url }}" type="module" defer="defer"></script>
   {%- endif -%}
 {% render 'hulkappsWishlistPopup' %}
+
+  <script>
+    var interval = setInterval(function() {
+      if(document.readyState === 'complete') {
+        // $("#shopify-block-ef5271f5-11da-4b61-8bab-99d3e9eb3656").insertAfter($('.productForm'));
+        $("#shopify-block-01e9d14b-7a80-4115-a922-779e4a4c711f").insertAfter($('.product-info__title .product-title'));
+
+        clearInterval(interval);
+      }    
+    }, 100);
+  </script>
+
 </body>
 </html>

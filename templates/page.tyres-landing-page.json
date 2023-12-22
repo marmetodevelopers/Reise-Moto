@@ -1,0 +1,447 @@
+{
+  "sections": {
+    "f1029d0b-14ec-42eb-ac37-17f3084b93d0": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21657814925606__f1029d0b-14ec-42eb-ac37-17f3084b93d0-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21657814925606__f1029d0b-14ec-42eb-ac37-17f3084b93d0-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21657814925606__f1029d0b-14ec-42eb-ac37-17f3084b93d0-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21657814925606__f1029d0b-14ec-42eb-ac37-17f3084b93d0-heading-1",
+        "template--21657814925606__f1029d0b-14ec-42eb-ac37-17f3084b93d0-text-1",
+        "template--21657814925606__f1029d0b-14ec-42eb-ac37-17f3084b93d0-button-1"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/WhatsApp_Image_2023-06-01_at_6.23.53_PM.jpg",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": false
+      }
+    },
+    "130ee94d-af3e-4111-ba30-ccc8be99593a": {
+      "type": "media-with-text-static-page",
+      "blocks": {
+        "template--21657814925606__130ee94d-af3e-4111-ba30-ccc8be99593a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reise torq R",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "template--21657814925606__130ee94d-af3e-4111-ba30-ccc8be99593a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Dakar-winning tread geometry recommended for its proven performance.<\/li><li>Specialised compound options to tackle varied terrains viz. soft & warm sands, loose gravels, extreme off-road, dirt tracks, rocks, trails, mud, slush, snow etc.<\/li><li>Provides stability, control, and performance off the road.<\/li><\/ul>",
+            "enlarge_text": false
+          }
+        },
+        "template--21657814925606__130ee94d-af3e-4111-ba30-ccc8be99593a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/collections",
+            "button_style": "btn btn--primary"
+          }
+        },
+        "af31759b-997b-4877-bcaa-7eac5a14c511": {
+          "type": "image",
+          "settings": {
+            "image_with_text_one": "shopify:\/\/shop_images\/Braking.webp",
+            "svg_icons_text_one": "one",
+            "image_with_text_image_two": "shopify:\/\/shop_images\/Comfort.webp",
+            "svg_icons_text_two": "two",
+            "image_with_text_image_three": "shopify:\/\/shop_images\/wetgrip.webp",
+            "svg_icons_text_three": "three",
+            "image_with_text_image_four": "shopify:\/\/shop_images\/Comfort.webp",
+            "svg_icons_text_four": "four",
+            "image_with_text_image_five": "shopify:\/\/shop_images\/Braking.webp",
+            "svg_icons_text_five": "five",
+            "image_with_text_image_six": "shopify:\/\/shop_images\/wetgrip.webp",
+            "svg_icons_text_six": "six",
+            "image_with_text_image_seven": "shopify:\/\/shop_images\/wetgrip.webp",
+            "svg_icons_text_seven": "seveen",
+            "image_with_text_image_eight": "shopify:\/\/shop_images\/Comfort.webp",
+            "svg_icons_text_eight": "eight",
+            "image_with_text_image_nine": "shopify:\/\/shop_images\/Comfort.webp",
+            "svg_icons_text_nine": "nine",
+            "image_with_text_image_ten": "shopify:\/\/shop_images\/Braking.webp",
+            "svg_icons_text_ten": "ten"
+          }
+        }
+      },
+      "block_order": [
+        "template--21657814925606__130ee94d-af3e-4111-ba30-ccc8be99593a-heading-1",
+        "template--21657814925606__130ee94d-af3e-4111-ba30-ccc8be99593a-text-1",
+        "template--21657814925606__130ee94d-af3e-4111-ba30-ccc8be99593a-button-1",
+        "af31759b-997b-4877-bcaa-7eac5a14c511"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TYRE_torqR_7d36567d-3495-4a00-83a2-71c5745eb6f1.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2",
+        "button_url_link": "shopify:\/\/collections"
+      }
+    },
+    "6f2cde32-19b2-4282-ab97-76bc90426b78": {
+      "type": "features",
+      "blocks": {
+        "c72661da-7acf-4f26-83f4-0a460b9a7fcf": {
+          "type": "Block",
+          "settings": {
+            "heaiding_text": "Features",
+            "paragraph_text_one": "<p>Scientifically geometric orientation of Knob<\/p>",
+            "paragraph_text_two": "<p>Reinforced Structure<\/p>",
+            "paragraph_text_three": "<p>Specialized Compound<\/p>"
+          }
+        },
+        "70cb26c7-a954-4b30-8ae2-eb1a8ad9cf90": {
+          "type": "Block",
+          "settings": {
+            "heaiding_text": "Advantages",
+            "paragraph_text_one": "<p>Self-cleaning and move on. Designed for biting the Soil<\/p>",
+            "paragraph_text_two": "<p>Better Stability and durability<\/p>",
+            "paragraph_text_three": "<p>Formulated to perform on specific terrains<\/p>"
+          }
+        },
+        "552ff98a-11c2-4510-af1d-f1234f63fac8": {
+          "type": "Block",
+          "settings": {
+            "heaiding_text": "Benefits",
+            "paragraph_text_one": "<p>Superior traction and cleaning of dirt during operation. Maximize Mechanical drive power transmission to the ground & faster acceleration on dirt roads<\/p>",
+            "paragraph_text_two": "<p>Perform at tough condition with effective steering response<\/p>",
+            "paragraph_text_three": "<p>Best riding performance with excellent grip and braking in the specified terrain<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c72661da-7acf-4f26-83f4-0a460b9a7fcf",
+        "70cb26c7-a954-4b30-8ae2-eb1a8ad9cf90",
+        "552ff98a-11c2-4510-af1d-f1234f63fac8"
+      ],
+      "settings": {
+        "bg_color": "#2b2b2b"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "55ea6e3a-2ff6-4142-b74f-67c99328102a": {
+      "type": "media-grid",
+      "blocks": {
+        "template--21657814925606__55ea6e3a-2ff6-4142-b74f-67c99328102a-media-1": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TYRE_torqR.png",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "",
+            "title": "<p>reise torq R<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "template--21657814925606__55ea6e3a-2ff6-4142-b74f-67c99328102a-media-2": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tyres_TrailRNN.png",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Trailr<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "template--21657814925606__55ea6e3a-2ff6-4142-b74f-67c99328102a-media-3": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/traceR11.png",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>TraceR<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "template--21657814925606__55ea6e3a-2ff6-4142-b74f-67c99328102a-media-4": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/troopR0111.png",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>troopR<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "template--21657814925606__55ea6e3a-2ff6-4142-b74f-67c99328102a-media-1",
+        "template--21657814925606__55ea6e3a-2ff6-4142-b74f-67c99328102a-media-2",
+        "template--21657814925606__55ea6e3a-2ff6-4142-b74f-67c99328102a-media-3",
+        "template--21657814925606__55ea6e3a-2ff6-4142-b74f-67c99328102a-media-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Our Range of Tyres",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 4,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 180,
+        "fixed_height_mobile": 300,
+        "color_scheme": "3",
+        "transparent_content_color": "#ffffff"
+      }
+    },
+    "c8056b31-77a4-4ae9-af22-74b7d664b656": {
+      "type": "media-with-text",
+      "blocks": {
+        "33d866c6-3af1-485a-a11d-08d76e044241": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reise torq R",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "267444fa-b1d8-4c17-9d1f-6775543e73f9": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Dakar-winning tread geometry recommended for its proven performance.<\/li><li>Specialised compound options to tackle varied terrains viz. soft & warm sands, loose gravels, extreme off-road, dirt tracks, rocks, trails, mud, slush, snow etc.<\/li><li>Provides stability, control, and performance off the road.<\/li><\/ul>",
+            "enlarge_text": false
+          }
+        },
+        "bda1f74d-7fae-4ea7-8369-c6e941b781a7": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "#",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "33d866c6-3af1-485a-a11d-08d76e044241",
+        "267444fa-b1d8-4c17-9d1f-6775543e73f9",
+        "bda1f74d-7fae-4ea7-8369-c6e941b781a7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TYRE_torqR.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2"
+      }
+    },
+    "29028078-7922-4173-a5b4-2729a18e7aa4": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21657814925606__29028078-7922-4173-a5b4-2729a18e7aa4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "reise trailR",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "template--21657814925606__29028078-7922-4173-a5b4-2729a18e7aa4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take the road to nowhere<\/p><p>Whether it's a dusty trail, a dune or a craggy road the trailR will ride on for as long and far as you want.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--21657814925606__29028078-7922-4173-a5b4-2729a18e7aa4-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "#",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21657814925606__29028078-7922-4173-a5b4-2729a18e7aa4-heading-1",
+        "template--21657814925606__29028078-7922-4173-a5b4-2729a18e7aa4-text-1",
+        "template--21657814925606__29028078-7922-4173-a5b4-2729a18e7aa4-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tyres_TrailRNN.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none"
+      }
+    },
+    "b6f21d7f-8aae-4968-bc49-caa6bae9a272": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21657814925606__b6f21d7f-8aae-4968-bc49-caa6bae9a272-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reise torq R",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "template--21657814925606__b6f21d7f-8aae-4968-bc49-caa6bae9a272-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Dakar-winning tread geometry recommended for its proven performance.<\/li><li>Specialised compound options to tackle varied terrains viz. soft & warm sands, loose gravels, extreme off-road, dirt tracks, rocks, trails, mud, slush, snow etc.<\/li><li>Provides stability, control, and performance off the road.<\/li><\/ul>",
+            "enlarge_text": false
+          }
+        },
+        "template--21657814925606__b6f21d7f-8aae-4968-bc49-caa6bae9a272-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "#",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21657814925606__b6f21d7f-8aae-4968-bc49-caa6bae9a272-heading-1",
+        "template--21657814925606__b6f21d7f-8aae-4968-bc49-caa6bae9a272-text-1",
+        "template--21657814925606__b6f21d7f-8aae-4968-bc49-caa6bae9a272-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TYRE_torqR.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2"
+      }
+    },
+    "eedace6c-85be-4843-9ccd-e22c4a6a1e67": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "all",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    }
+  },
+  "order": [
+    "f1029d0b-14ec-42eb-ac37-17f3084b93d0",
+    "130ee94d-af3e-4111-ba30-ccc8be99593a",
+    "6f2cde32-19b2-4282-ab97-76bc90426b78",
+    "main",
+    "55ea6e3a-2ff6-4142-b74f-67c99328102a",
+    "c8056b31-77a4-4ae9-af22-74b7d664b656",
+    "29028078-7922-4173-a5b4-2729a18e7aa4",
+    "b6f21d7f-8aae-4968-bc49-caa6bae9a272",
+    "eedace6c-85be-4843-9ccd-e22c4a6a1e67"
+  ]
+}

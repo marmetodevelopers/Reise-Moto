@@ -5,6 +5,15 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "settings": {
+        "show_backorder_text": true,
+        "show_vendor": true,
+        "show_order_note": true,
+        "show_shipping_text_notice": true,
+        "show_additional_checkout_buttons": true,
+        "show_checkout_button": true,
+        "stick_footer": true,
+        "show_shipping_calculator": false,
+        "shipping_calculator_default_country": "United States"
       }
     },
     "product-compare": {
@@ -13,31 +22,39 @@
         "compare-1": {
           "type": "image",
           "settings": {
+            "show_line": false
           }
         },
         "compare-2": {
           "type": "vendor",
           "settings": {
+            "show_line": false
           }
         },
         "compare-3": {
           "type": "title",
           "settings": {
+            "show_line": false
           }
         },
         "compare-4": {
           "type": "price",
           "settings": {
+            "show_line": false
           }
         },
         "compare-5": {
           "type": "description",
           "settings": {
+            "truncate_description": false,
+            "words_to_show": 20,
+            "show_line": false
           }
         },
         "compare-6": {
           "type": "variants",
           "settings": {
+            "show_line": false
           }
         }
       },
