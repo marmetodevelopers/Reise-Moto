@@ -673,13 +673,81 @@
             "bg_color": "#070707",
             "bg_grad": ""
           }
+        },
+        "558a9334-bf30-485f-9ffb-39d0be882f8b": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---tripR.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "2fbe3680-2450-4d70-aa6b-83496da8097e": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---troopR-01.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
         }
       },
       "block_order": [
         "template--21357814907174__e6067521-8746-4540-8dd1-951d6789dd0b-slide-1",
         "template--21357814907174__e6067521-8746-4540-8dd1-951d6789dd0b-slide-2",
         "cb653c0d-c112-4719-bd6b-a84d19e548c9",
-        "6ee56aa6-ada9-40d4-8213-de31acf250a2"
+        "6ee56aa6-ada9-40d4-8213-de31acf250a2",
+        "558a9334-bf30-485f-9ffb-39d0be882f8b",
+        "2fbe3680-2450-4d70-aa6b-83496da8097e"
       ],
       "settings": {
         "height_mode": "fixed",
