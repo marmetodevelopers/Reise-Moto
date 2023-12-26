@@ -247,7 +247,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
@@ -636,7 +636,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
@@ -669,7 +669,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
@@ -702,7 +702,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
@@ -711,6 +711,39 @@
           "type": "slide",
           "settings": {
             "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---troopR-01.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "b1074fd9-140d-4aab-be58-13887a070169": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---twistR.jpg",
             "url": "",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
@@ -747,7 +780,8 @@
         "cb653c0d-c112-4719-bd6b-a84d19e548c9",
         "6ee56aa6-ada9-40d4-8213-de31acf250a2",
         "558a9334-bf30-485f-9ffb-39d0be882f8b",
-        "2fbe3680-2450-4d70-aa6b-83496da8097e"
+        "2fbe3680-2450-4d70-aa6b-83496da8097e",
+        "b1074fd9-140d-4aab-be58-13887a070169"
       ],
       "settings": {
         "height_mode": "fixed",
