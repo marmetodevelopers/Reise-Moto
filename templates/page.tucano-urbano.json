@@ -76,11 +76,45 @@
             "bg_color": "#070707",
             "bg_grad": ""
           }
+        },
+        "a42a603c-d3e2-4348-bec2-01e054f7d71d": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/reise_Landing-Page-Banners-_tucano-urbano.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
         }
       },
       "block_order": [
         "template--21767524417830__ce9e67ab-3158-4588-8ebf-0a905c87b035-slide-1",
-        "template--21767524417830__ce9e67ab-3158-4588-8ebf-0a905c87b035-slide-2"
+        "template--21767524417830__ce9e67ab-3158-4588-8ebf-0a905c87b035-slide-2",
+        "a42a603c-d3e2-4348-bec2-01e054f7d71d"
       ],
       "settings": {
         "height_mode": "fixed",
