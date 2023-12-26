@@ -214,6 +214,39 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "5fa736e3-324a-454e-ba5d-64e115de13ea": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_Spidi_b0a6f3b7-5c7b-446a-8fe8-d8cc813e8ea4.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
             "count_color": "#fff",
             "bg_color": "#070707",
             "bg_grad": ""
@@ -225,7 +258,8 @@
         "template--21171977945382__bba8d51b-a8ea-4ebe-9afb-d64d8a0240fd-slide-2",
         "d067085a-318d-4ab3-8c0a-ba469906cdc9",
         "6e0ce6ac-a9eb-42a4-b72a-d613d786da01",
-        "8b3db163-a914-4ad0-ab68-20e7e1534cb1"
+        "8b3db163-a914-4ad0-ab68-20e7e1534cb1",
+        "5fa736e3-324a-454e-ba5d-64e115de13ea"
       ],
       "settings": {
         "height_mode": "fixed",
