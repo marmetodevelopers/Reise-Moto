@@ -83,7 +83,7 @@
         "template--21767524253990__f5cc7f34-3517-46f5-a8f7-f393d25855a4-slide-2"
       ],
       "settings": {
-        "height_mode": "auto",
+        "height_mode": "screen",
         "fixed_height_desktop": 600,
         "fixed_height_mobile": 350,
         "mobile_stacked": false,
