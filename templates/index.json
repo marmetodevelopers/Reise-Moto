@@ -795,10 +795,10 @@
         "autoplay": true,
         "slider_pause": false,
         "autoplay_speed": 5,
-        "color_scheme": "white",
+        "color_scheme": "default",
         "full_width": true,
         "tint_color": "#000000",
-        "tint_opacity": 40,
+        "tint_opacity": 0,
         "accessibility_info": "",
         "prevent_animation": true
       }
