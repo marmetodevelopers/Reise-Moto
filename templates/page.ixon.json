@@ -83,9 +83,9 @@
         "template--21767524385062__a15b69f7-74ac-41ca-b571-a0c64b9d2816-slide-2"
       ],
       "settings": {
-        "height_mode": "auto",
-        "fixed_height_desktop": 600,
-        "fixed_height_mobile": 350,
+        "height_mode": "fixed",
+        "fixed_height_desktop": 400,
+        "fixed_height_mobile": 250,
         "mobile_stacked": false,
         "nav_style": "slideshow_nav_lines",
         "pagination_color": "#ffffff",
