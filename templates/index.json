@@ -414,6 +414,7 @@
         "video_shopify": "shopify:\/\/files\/videos\/Performance.mp4",
         "video_external": "",
         "video_description": "",
+        "poster_image": "shopify:\/\/shop_images\/Product-category-banner---twistR.jpg",
         "video_height": "md",
         "overlay_text_align": "text-center",
         "overlay_position": "justify-center items-center",
