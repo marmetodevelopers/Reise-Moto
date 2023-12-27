@@ -410,7 +410,7 @@
       ],
       "settings": {
         "video_shopify": "shopify:\/\/files\/videos\/Off road.mp4",
-        "video_external": "https:\/\/youtu.be\/caeMyMFEYvU",
+        "video_external": "",
         "video_description": "",
         "video_height": "md",
         "overlay_text_align": "text-center",
