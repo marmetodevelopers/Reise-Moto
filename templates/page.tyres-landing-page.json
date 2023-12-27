@@ -125,7 +125,7 @@
         "media_scale": 100,
         "text_align": "text-start",
         "color_scheme": "2",
-        "button_url_link": "shopify:\/\/collections"
+        "button_url_link": "shopify:\/\/collections\/all"
       }
     },
     "6f2cde32-19b2-4282-ab97-76bc90426b78": {
@@ -165,6 +165,8 @@
         "552ff98a-11c2-4510-af1d-f1234f63fac8"
       ],
       "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
         "bg_color": "#2b2b2b"
       }
     },
