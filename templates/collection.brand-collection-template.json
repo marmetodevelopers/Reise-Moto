@@ -7,7 +7,7 @@
         "show_product_count": true,
         "show_collection_description": true,
         "text_align": "text-start",
-        "collection_image": "none",
+        "collection_image": "natural",
         "use_product_image": false,
         "text_width": "standard",
         "color_scheme": "default"
