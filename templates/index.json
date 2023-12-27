@@ -284,6 +284,12 @@
     "8f1373f0-56cb-4ecb-9f1e-381cbb8922f8": {
       "type": "collection-list",
       "blocks": {
+        "ad1d51b6-04ea-4f3b-8a22-a1480e64e807": {
+          "type": "collection",
+          "settings": {
+            "collection": "tyre"
+          }
+        },
         "template--21171977945382__8f1373f0-56cb-4ecb-9f1e-381cbb8922f8-collection-1": {
           "type": "collection",
           "settings": {
@@ -331,15 +337,10 @@
           "settings": {
             "collection": "rain-gear"
           }
-        },
-        "ad1d51b6-04ea-4f3b-8a22-a1480e64e807": {
-          "type": "collection",
-          "settings": {
-            "collection": "tyre"
-          }
         }
       },
       "block_order": [
+        "ad1d51b6-04ea-4f3b-8a22-a1480e64e807",
         "template--21171977945382__8f1373f0-56cb-4ecb-9f1e-381cbb8922f8-collection-1",
         "template--21171977945382__8f1373f0-56cb-4ecb-9f1e-381cbb8922f8-collection-2",
         "template--21171977945382__8f1373f0-56cb-4ecb-9f1e-381cbb8922f8-collection-3",
@@ -347,8 +348,7 @@
         "15e968c4-008d-45fb-9b7d-680eae749cb2",
         "be5d16f0-6218-4776-99c6-066f59b69129",
         "7d0bde3e-fe2b-41f8-b7ee-177946958f66",
-        "362efcb9-6b75-468a-acf9-639d28ed1397",
-        "ad1d51b6-04ea-4f3b-8a22-a1480e64e807"
+        "362efcb9-6b75-468a-acf9-639d28ed1397"
       ],
       "settings": {
         "title": "Collections",
