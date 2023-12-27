@@ -1,8 +1,11 @@
 
 
-<div class="collection_banner_image">
+<div class="page-width section-{{ section.id }}-padding">
+  <div class="collection_banner_image">
   {% assign image = collection.metafields.custom.collection_banner_image.value %}
   <img src={{ image | image_url }} />
+</div>
+
 </div>
 
 
