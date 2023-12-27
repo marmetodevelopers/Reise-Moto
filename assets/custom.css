@@ -225,3 +225,6 @@ variant-picker.no-js-hidden{
 .mega-nav--sidebar .child-nav{
   text-align: center;
 }
+.heading_container .tab{
+  justify-content: center;
+}
