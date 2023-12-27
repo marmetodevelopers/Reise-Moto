@@ -380,6 +380,7 @@
       "blocks": {
         "template--21171977945382__a020259e-1ab0-4622-8d7b-97394a670bc6-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Adventure Touring",
             "heading_size": "h3",
@@ -388,6 +389,7 @@
         },
         "template--21171977945382__a020259e-1ab0-4622-8d7b-97394a670bc6-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>\"Embark on epic adventures with our premium touring gear. Discover the thrill of the unknown. Unleash your wanderlust with us!\"<\/p>",
             "enlarge_text": true
@@ -419,7 +421,7 @@
         "color_scheme": "white",
         "transparent_content_color": "#ffffff",
         "tint_color": "#000000",
-        "tint_opacity": 40,
+        "tint_opacity": 0,
         "lazyload": true,
         "prevent_animation": false
       }
