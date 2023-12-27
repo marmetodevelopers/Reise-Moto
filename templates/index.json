@@ -349,6 +349,13 @@
           "settings": {
             "collection": "layers"
           }
+        },
+        "2620ae87-740e-4c46-bde0-3f40fb7ffb54": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "jacket"
+          }
         }
       },
       "block_order": [
@@ -362,7 +369,8 @@
         "7d0bde3e-fe2b-41f8-b7ee-177946958f66",
         "362efcb9-6b75-468a-acf9-639d28ed1397",
         "ffce2a2d-1cae-4c61-bf64-a56ca65a681e",
-        "ab39b6ad-e5ee-4d64-8977-625fd30b013d"
+        "ab39b6ad-e5ee-4d64-8977-625fd30b013d",
+        "2620ae87-740e-4c46-bde0-3f40fb7ffb54"
       ],
       "settings": {
         "title": "Collections",
