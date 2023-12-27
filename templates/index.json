@@ -1763,6 +1763,27 @@
         "image_ratio": "1.77",
         "button_style": "btn--primary"
       }
+    },
+    "cce9bf65-e0b3-40ea-8821-1f91bc0577bf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "tucano-urbano",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
     }
   },
   "order": [
@@ -1788,6 +1809,7 @@
     "094efb86-5a24-49e5-b3f6-6857491acedd",
     "ae056cb1-9f30-4744-afdd-e7eb28d39507",
     "c9cf0fd4-cc5f-456b-9d81-475ebea4a305",
-    "4385557a-530a-4bbb-bc22-23d0815e7662"
+    "4385557a-530a-4bbb-bc22-23d0815e7662",
+    "cce9bf65-e0b3-40ea-8821-1f91bc0577bf"
   ]
 }
