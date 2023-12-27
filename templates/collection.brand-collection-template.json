@@ -2,6 +2,7 @@
   "sections": {
     "collection-banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_title": true,
         "show_product_count": true,
@@ -11,6 +12,13 @@
         "use_product_image": false,
         "text_width": "standard",
         "color_scheme": "default"
+      }
+    },
+    "fe5d7844-cb2b-4b2a-93e2-5279e1073352": {
+      "type": "collection-banner-image",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "collection-products": {
@@ -34,6 +42,7 @@
   },
   "order": [
     "collection-banner",
+    "fe5d7844-cb2b-4b2a-93e2-5279e1073352",
     "collection-products"
   ]
 }
