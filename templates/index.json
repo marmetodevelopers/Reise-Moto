@@ -389,7 +389,7 @@
         "title": "Hot Products",
         "heading_align": "text-start",
         "show_view_all": true,
-        "collection": "all",
+        "collection": "hot-products",
         "layout": "carousel",
         "card_size_mobile": "small",
         "card_size": "small",
