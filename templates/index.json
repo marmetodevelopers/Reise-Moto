@@ -409,6 +409,7 @@
         "template--21171977945382__a020259e-1ab0-4622-8d7b-97394a670bc6-button-1"
       ],
       "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/Off road.mp4",
         "video_external": "https:\/\/youtu.be\/caeMyMFEYvU",
         "video_description": "",
         "video_height": "md",
@@ -768,7 +769,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
