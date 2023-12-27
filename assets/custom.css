@@ -222,3 +222,6 @@ a#viewMoreButton {
 variant-picker.no-js-hidden{
   width: 100%;
 }
+.mega-nav--sidebar .child-nav{
+  text-align: center;
+}
