@@ -337,6 +337,12 @@
           "settings": {
             "collection": "rain-gear"
           }
+        },
+        "ffce2a2d-1cae-4c61-bf64-a56ca65a681e": {
+          "type": "collection",
+          "settings": {
+            "collection": "life-style"
+          }
         }
       },
       "block_order": [
@@ -348,7 +354,8 @@
         "15e968c4-008d-45fb-9b7d-680eae749cb2",
         "be5d16f0-6218-4776-99c6-066f59b69129",
         "7d0bde3e-fe2b-41f8-b7ee-177946958f66",
-        "362efcb9-6b75-468a-acf9-639d28ed1397"
+        "362efcb9-6b75-468a-acf9-639d28ed1397",
+        "ffce2a2d-1cae-4c61-bf64-a56ca65a681e"
       ],
       "settings": {
         "title": "Collections",
