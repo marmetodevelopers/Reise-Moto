@@ -550,8 +550,30 @@
         "prevent_animation": true
       }
     },
+    "cce9bf65-e0b3-40ea-8821-1f91bc0577bf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "tucano-urbano",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
     "1b821284-9abc-4833-8e19-9119cd4f8d70": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "All Products",
         "heading_align": "text-start",
@@ -1763,27 +1785,6 @@
         "image_ratio": "1.77",
         "button_style": "btn--primary"
       }
-    },
-    "cce9bf65-e0b3-40ea-8821-1f91bc0577bf": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_align": "text-start",
-        "show_view_all": true,
-        "collection": "tucano-urbano",
-        "layout": "carousel",
-        "card_size_mobile": "small",
-        "card_size": "small",
-        "products_to_show": 8,
-        "show_promo_info": false,
-        "image_ratio": "fill",
-        "promo_title": "A headline to grab attention",
-        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
-        "link_url": "",
-        "button_label": "Button",
-        "color_scheme": "2",
-        "button_style": "btn btn--primary"
-      }
     }
   },
   "order": [
@@ -1793,6 +1794,7 @@
     "9b2815de-02e7-4a9b-909f-b89332f7cfec",
     "a020259e-1ab0-4622-8d7b-97394a670bc6",
     "5cc19abc-ebde-44b3-8733-77e80fbb1056",
+    "cce9bf65-e0b3-40ea-8821-1f91bc0577bf",
     "1b821284-9abc-4833-8e19-9119cd4f8d70",
     "e6067521-8746-4540-8dd1-951d6789dd0b",
     "f6e6d938-a2f3-4196-b769-e86256013e74",
@@ -1809,7 +1811,6 @@
     "094efb86-5a24-49e5-b3f6-6857491acedd",
     "ae056cb1-9f30-4744-afdd-e7eb28d39507",
     "c9cf0fd4-cc5f-456b-9d81-475ebea4a305",
-    "4385557a-530a-4bbb-bc22-23d0815e7662",
-    "cce9bf65-e0b3-40ea-8821-1f91bc0577bf"
+    "4385557a-530a-4bbb-bc22-23d0815e7662"
   ]
 }
