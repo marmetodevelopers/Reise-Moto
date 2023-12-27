@@ -343,6 +343,12 @@
           "settings": {
             "collection": "life-style"
           }
+        },
+        "ab39b6ad-e5ee-4d64-8977-625fd30b013d": {
+          "type": "collection",
+          "settings": {
+            "collection": "layers"
+          }
         }
       },
       "block_order": [
@@ -355,7 +361,8 @@
         "be5d16f0-6218-4776-99c6-066f59b69129",
         "7d0bde3e-fe2b-41f8-b7ee-177946958f66",
         "362efcb9-6b75-468a-acf9-639d28ed1397",
-        "ffce2a2d-1cae-4c61-bf64-a56ca65a681e"
+        "ffce2a2d-1cae-4c61-bf64-a56ca65a681e",
+        "ab39b6ad-e5ee-4d64-8977-625fd30b013d"
       ],
       "settings": {
         "title": "Collections",
