@@ -1,5 +1,6 @@
 <div class="collection_banner_image">
-  <img src={{ collection.metafields.custom.collection_banner_images.value | image_url }} />
+  {% assign image = collection.metafields.custom.collection_banner_image.value %}
+  <img src={{ image | image_url }} />
 </div>
 
 
