@@ -332,6 +332,7 @@
                 </div>
                 <div class="tab_content" id="tab1">
                   {% assign tab1 = product.metafields.custom.product_specs_questions.value %}
+                 {% assign answer = product.metafields.custom.product_specs_answers.value %}
                   <div class="meta_object_content">
                     <div class="product_id_key">
                       {% for tabvalue in tab1 %}
@@ -339,7 +340,7 @@
                       {% endfor %}
                     </div>
                     <div class="product_key_values">
-                      {% for tab2 in tab1.product_specs_key.value %}
+                      {% for tab2 in answer %}
                         <p>{{ tab2 }}</p>
                       {% endfor %}
                     </div>
