@@ -331,10 +331,10 @@
                   <div class="tab active" data-tab="tab2">{{ block.settings.tab_heading_two }}</div>
                 </div>
                 <div class="tab_content" id="tab1">
-                  {% assign tab1 = product.metafields.custom.product_specs_id.value %}
+                  {% assign tab1 = product.metafields.custom.product_specs_questions.value %}
                   <div class="meta_object_content">
                     <div class="product_id_key">
-                      {% for tabvalue in tab1.product_specs_id.value %}
+                      {% for tabvalue in tab1 %}
                         <p>{{ tabvalue }}</p>
                       {% endfor %}
                     </div>
