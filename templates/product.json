@@ -232,7 +232,7 @@
         "media_arrows": "desktop",
         "show_slide_count": true,
         "border_color": "#ffffff",
-        "bg_color": "#2b2b2b",
+        "bg_color": "#d8d6d6",
         "enable_media_grouping": false,
         "media_grouping_option": "Color,Colour,Couleur,Farbe"
       }

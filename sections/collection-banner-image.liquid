@@ -1,3 +1,4 @@
+
 <div class="page-width section-{{ section.id }}-padding">
   <div class="collection_banner_image">
     {% assign image = collection.metafields.custom.collection_banner_image.value %}
@@ -5,12 +6,13 @@
   </div>
 </div>
 
+
 {% style %}
   .collection_banner_image img{
     width: 100%;
     object-fit: cover;
   }
-  .section-{{ section.id }}-padding {
+    .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
@@ -24,38 +26,37 @@
 {% endstyle %}
 
 {% schema %}
-{
-  "name": "collections image banner",
-  "settings": [
-    {
-      "type": "header",
-      "content": "Padding Heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "Padding top",
-      "default": 0
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "Padding bottom",
-      "default": 0
-    }
-  ],
-  "presets": [
-    {
+  {
+    "name": "collections image banner",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Padding Heading"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
+      }
+    ],
+    "presets":[{
       "name": "collections image banner"
-    }
-  ]
-}
+    }]
+  }
 {% endschema %}
+

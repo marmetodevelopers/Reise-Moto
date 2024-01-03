@@ -219,7 +219,9 @@ a#viewMoreButton {
 .product_image_svg_container {
   margin-bottom: 22px;
 }
-variant-picker.no-js-hidden{
+variant-picker.no-js-hidden,
+.collection_banner_meta_image,
+.collection_banner_image{
   width: 100%;
 }
 .mega-nav--sidebar .child-nav{
