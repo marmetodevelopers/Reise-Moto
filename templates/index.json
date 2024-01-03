@@ -440,10 +440,10 @@
         "template--21171977945382__a020259e-1ab0-4622-8d7b-97394a670bc6-button-1"
       ],
       "settings": {
-        "video_shopify": "shopify:\/\/files\/videos\/Off road.mp4",
+        "video_shopify": "shopify:\/\/files\/videos\/Touring.mp4",
         "video_external": "",
         "video_description": "",
-        "video_height": "landscape",
+        "video_height": "md",
         "overlay_text_align": "text-center",
         "overlay_position": "justify-center items-center",
         "mob_center_text": true,
