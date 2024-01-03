@@ -443,7 +443,7 @@
         "video_shopify": "shopify:\/\/files\/videos\/Off road.mp4",
         "video_external": "",
         "video_description": "",
-        "video_height": "md",
+        "video_height": "landscape",
         "overlay_text_align": "text-center",
         "overlay_position": "justify-center items-center",
         "mob_center_text": true,
