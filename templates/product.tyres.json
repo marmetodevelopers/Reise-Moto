@@ -103,6 +103,14 @@
             "spacing": "mt-8 mb-8"
           }
         },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": true,
+            "show_pickup_availability": true
+          }
+        },
         "1c98c80d-23e0-4196-8217-90b178b34964": {
           "type": "product-tabs",
           "settings": {
@@ -123,14 +131,6 @@
         "19185067-2987-4c03-8e8c-bb7a81398408": {
           "type": "icons",
           "settings": {
-          }
-        },
-        "buy-buttons": {
-          "type": "buy-buttons",
-          "settings": {
-            "show_qty_selector": true,
-            "enable_dynamic_checkout": true,
-            "show_pickup_availability": true
           }
         },
         "message-1": {
@@ -220,10 +220,10 @@
         "divider-0",
         "variant-picker",
         "divider-1",
+        "buy-buttons",
         "1c98c80d-23e0-4196-8217-90b178b34964",
         "9cef650d-e737-4c38-badd-08b81e3223f4",
         "19185067-2987-4c03-8e8c-bb7a81398408",
-        "buy-buttons",
         "message-1",
         "message-2",
         "collapsible-content-1",
@@ -253,7 +253,7 @@
         "border_color": "#ffffff",
         "bg_color": "#2b2b2b",
         "enable_media_grouping": false,
-        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+        "media_grouping_option": "{{ product.metafields.custom.product_specs_id.value.product_specs_key | metafield_text }}"
       }
     },
     "details": {
