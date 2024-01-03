@@ -82,7 +82,7 @@
             "enable_size_chart": true,
             "size_chart_variant": "POP_UP",
             "size_chart_page": "brand-ethos",
-            "image_popup": "shopify:\/\/shop_images\/Screenshot_77.png"
+            "image_popup": "{{ product.metafields.custom.size_guide.value }}"
           }
         },
         "divider-1": {
