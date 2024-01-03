@@ -157,7 +157,7 @@
           "type": "slide",
           "settings": {
             "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_ixon_9aad7418-db69-4801-95c3-4f6e4701aee1.jpg",
-            "url": "",
+            "url": "shopify:\/\/collections\/ixon",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
             "mob_center_text": false,
@@ -190,7 +190,7 @@
           "type": "slide",
           "settings": {
             "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-bannersr_tucano-urbano_4a673bb2-4ab8-4852-9480-fe59bec0232e.jpg",
-            "url": "",
+            "url": "shopify:\/\/collections\/tucano-urbano",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
             "mob_center_text": false,
@@ -223,7 +223,7 @@
           "type": "slide",
           "settings": {
             "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_Spidi_b0a6f3b7-5c7b-446a-8fe8-d8cc813e8ea4.jpg",
-            "url": "",
+            "url": "shopify:\/\/collections\/spidi",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
             "mob_center_text": false,
