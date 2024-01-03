@@ -996,6 +996,7 @@
     },
     "53d85975-10d8-4f8c-90b8-2abfad14f493": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "title": "Stories",
         "heading_align": "text-start",
