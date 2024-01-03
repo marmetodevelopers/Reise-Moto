@@ -57,7 +57,7 @@
         "template--21171977945382__bba8d51b-a8ea-4ebe-9afb-d64d8a0240fd-slide-1": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_ixon.jpg",
+            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_1.jpg",
             "url": "",
             "overlay_position": "justify-start items-center",
             "overlay_text_align": "text-start",
@@ -90,7 +90,7 @@
         "template--21171977945382__bba8d51b-a8ea-4ebe-9afb-d64d8a0240fd-slide-2": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_Spidi.jpg",
+            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_2.jpg",
             "url": "",
             "overlay_position": "justify-start items-center",
             "overlay_text_align": "text-start",
@@ -123,7 +123,7 @@
         "d067085a-318d-4ab3-8c0a-ba469906cdc9": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-bannersr_tucano-urbano.jpg",
+            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_acerbis_da56a114-337a-464a-bf59-e5df400eb37b.jpg",
             "url": "",
             "overlay_position": "justify-start items-center",
             "overlay_text_align": "text-start",
@@ -156,7 +156,73 @@
         "6e0ce6ac-a9eb-42a4-b72a-d613d786da01": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_acerbis.jpg",
+            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_ixon_9aad7418-db69-4801-95c3-4f6e4701aee1.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "8b3db163-a914-4ad0-ab68-20e7e1534cb1": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-bannersr_tucano-urbano_4a673bb2-4ab8-4852-9480-fe59bec0232e.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "5fa736e3-324a-454e-ba5d-64e115de13ea": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/homepage_slideshow-banners_Spidi_b0a6f3b7-5c7b-446a-8fe8-d8cc813e8ea4.jpg",
             "url": "",
             "overlay_position": "justify-center items-center",
             "overlay_text_align": "text-center",
@@ -191,7 +257,9 @@
         "template--21171977945382__bba8d51b-a8ea-4ebe-9afb-d64d8a0240fd-slide-1",
         "template--21171977945382__bba8d51b-a8ea-4ebe-9afb-d64d8a0240fd-slide-2",
         "d067085a-318d-4ab3-8c0a-ba469906cdc9",
-        "6e0ce6ac-a9eb-42a4-b72a-d613d786da01"
+        "6e0ce6ac-a9eb-42a4-b72a-d613d786da01",
+        "8b3db163-a914-4ad0-ab68-20e7e1534cb1",
+        "5fa736e3-324a-454e-ba5d-64e115de13ea"
       ],
       "settings": {
         "height_mode": "fixed",
@@ -216,6 +284,12 @@
     "8f1373f0-56cb-4ecb-9f1e-381cbb8922f8": {
       "type": "collection-list",
       "blocks": {
+        "ad1d51b6-04ea-4f3b-8a22-a1480e64e807": {
+          "type": "collection",
+          "settings": {
+            "collection": "tyre"
+          }
+        },
         "template--21171977945382__8f1373f0-56cb-4ecb-9f1e-381cbb8922f8-collection-1": {
           "type": "collection",
           "settings": {
@@ -263,9 +337,29 @@
           "settings": {
             "collection": "rain-gear"
           }
+        },
+        "ffce2a2d-1cae-4c61-bf64-a56ca65a681e": {
+          "type": "collection",
+          "settings": {
+            "collection": "life-style"
+          }
+        },
+        "ab39b6ad-e5ee-4d64-8977-625fd30b013d": {
+          "type": "collection",
+          "settings": {
+            "collection": "layers"
+          }
+        },
+        "2620ae87-740e-4c46-bde0-3f40fb7ffb54": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "jacket"
+          }
         }
       },
       "block_order": [
+        "ad1d51b6-04ea-4f3b-8a22-a1480e64e807",
         "template--21171977945382__8f1373f0-56cb-4ecb-9f1e-381cbb8922f8-collection-1",
         "template--21171977945382__8f1373f0-56cb-4ecb-9f1e-381cbb8922f8-collection-2",
         "template--21171977945382__8f1373f0-56cb-4ecb-9f1e-381cbb8922f8-collection-3",
@@ -273,7 +367,10 @@
         "15e968c4-008d-45fb-9b7d-680eae749cb2",
         "be5d16f0-6218-4776-99c6-066f59b69129",
         "7d0bde3e-fe2b-41f8-b7ee-177946958f66",
-        "362efcb9-6b75-468a-acf9-639d28ed1397"
+        "362efcb9-6b75-468a-acf9-639d28ed1397",
+        "ffce2a2d-1cae-4c61-bf64-a56ca65a681e",
+        "ab39b6ad-e5ee-4d64-8977-625fd30b013d",
+        "2620ae87-740e-4c46-bde0-3f40fb7ffb54"
       ],
       "settings": {
         "title": "Collections",
@@ -292,7 +389,7 @@
         "title": "Hot Products",
         "heading_align": "text-start",
         "show_view_all": true,
-        "collection": "all",
+        "collection": "hot-products",
         "layout": "carousel",
         "card_size_mobile": "small",
         "card_size": "small",
@@ -312,6 +409,7 @@
       "blocks": {
         "template--21171977945382__a020259e-1ab0-4622-8d7b-97394a670bc6-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Adventure Touring",
             "heading_size": "h3",
@@ -320,6 +418,7 @@
         },
         "template--21171977945382__a020259e-1ab0-4622-8d7b-97394a670bc6-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>\"Embark on epic adventures with our premium touring gear. Discover the thrill of the unknown. Unleash your wanderlust with us!\"<\/p>",
             "enlarge_text": true
@@ -341,7 +440,8 @@
         "template--21171977945382__a020259e-1ab0-4622-8d7b-97394a670bc6-button-1"
       ],
       "settings": {
-        "video_external": "https:\/\/youtu.be\/caeMyMFEYvU",
+        "video_shopify": "shopify:\/\/files\/videos\/Performance.mp4",
+        "video_external": "",
         "video_description": "",
         "video_height": "md",
         "overlay_text_align": "text-center",
@@ -350,7 +450,7 @@
         "color_scheme": "white",
         "transparent_content_color": "#ffffff",
         "tint_color": "#000000",
-        "tint_opacity": 40,
+        "tint_opacity": 0,
         "lazyload": true,
         "prevent_animation": false
       }
@@ -450,8 +550,30 @@
         "prevent_animation": true
       }
     },
+    "cce9bf65-e0b3-40ea-8821-1f91bc0577bf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "tucano-urbano",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
     "1b821284-9abc-4833-8e19-9119cd4f8d70": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "All Products",
         "heading_align": "text-start",
@@ -477,7 +599,7 @@
         "template--21357814907174__e6067521-8746-4540-8dd1-951d6789dd0b-slide-1": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/trailr_copy-03.jpg",
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---torqR.jpg",
             "url": "",
             "overlay_position": "justify-start items-center",
             "overlay_text_align": "text-start",
@@ -510,21 +632,186 @@
         "template--21357814907174__e6067521-8746-4540-8dd1-951d6789dd0b-slide-2": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/ali-mahmoodi-xrHZ_FDM1XY-unsplash.jpg",
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---tourR.jpg",
             "url": "",
             "overlay_position": "justify-start items-center",
             "overlay_text_align": "text-center",
             "mob_center_text": false,
-            "subheading": "Subheading",
-            "heading": "Slideshow",
+            "subheading": "",
+            "heading": "",
             "heading_size": "h0",
             "heading_h1": false,
-            "text": "<p>Share announcements and information with your customers and welcome them to your store.<\/p>",
+            "text": "",
             "enlarge_text": true,
-            "button_1_label": "Optional button",
+            "button_1_label": "",
             "button_1_link": "",
             "button_1_style": "btn btn--primary",
-            "button_2_label": "Optional button",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "cb653c0d-c112-4719-bd6b-a84d19e548c9": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---traceR.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "6ee56aa6-ada9-40d4-8213-de31acf250a2": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---trailR.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "558a9334-bf30-485f-9ffb-39d0be882f8b": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---tripR.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "2fbe3680-2450-4d70-aa6b-83496da8097e": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---troopR-01.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "b1074fd9-140d-4aab-be58-13887a070169": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Product-category-banner---twistR.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
             "button_2_link": "",
             "button_2_style": "btn btn--primary",
             "transparent_content_color": "#ffffff",
@@ -543,10 +830,15 @@
       },
       "block_order": [
         "template--21357814907174__e6067521-8746-4540-8dd1-951d6789dd0b-slide-1",
-        "template--21357814907174__e6067521-8746-4540-8dd1-951d6789dd0b-slide-2"
+        "template--21357814907174__e6067521-8746-4540-8dd1-951d6789dd0b-slide-2",
+        "cb653c0d-c112-4719-bd6b-a84d19e548c9",
+        "6ee56aa6-ada9-40d4-8213-de31acf250a2",
+        "558a9334-bf30-485f-9ffb-39d0be882f8b",
+        "2fbe3680-2450-4d70-aa6b-83496da8097e",
+        "b1074fd9-140d-4aab-be58-13887a070169"
       ],
       "settings": {
-        "height_mode": "auto",
+        "height_mode": "fixed",
         "fixed_height_desktop": 600,
         "fixed_height_mobile": 350,
         "mobile_stacked": false,
@@ -557,10 +849,10 @@
         "autoplay": true,
         "slider_pause": false,
         "autoplay_speed": 5,
-        "color_scheme": "white",
+        "color_scheme": "default",
         "full_width": true,
         "tint_color": "#000000",
-        "tint_opacity": 40,
+        "tint_opacity": 0,
         "accessibility_info": "",
         "prevent_animation": true
       }
@@ -692,7 +984,7 @@
         "template--21171977945382__5416c496-a780-409e-b655-082e3ba3612a-view-more-button-1"
       ],
       "settings": {
-        "product": "dp-progressive-leather",
+        "product": "ramsey-my-vented",
         "media_ratio": "natural",
         "media_crop": "none",
         "hover_zoom": "large",
@@ -1429,7 +1721,7 @@
         "template--21357814907174__4385557a-530a-4bbb-bc22-23d0815e7662-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/reise_website_subbrand_cards_with_revised_subheadline_copy-08.jpg",
+            "image": "shopify:\/\/shop_images\/Reise_riding-genre_Dirt-off-Road_5d0a2eb5-4446-4f9e-a148-51724d5e2560.jpg",
             "heading": "Touring",
             "heading_bg_color": "#2e2e2e",
             "heading_text_color": "#ffffff",
@@ -1441,7 +1733,7 @@
         "template--21357814907174__4385557a-530a-4bbb-bc22-23d0815e7662-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nandu-vasudevan-zRw8fUdAvIo-unsplash.jpg",
+            "image": "shopify:\/\/shop_images\/Reise_riding-genre_Performance_f522ce05-c3d1-411b-a4f9-6ee43cb0e3d4.jpg",
             "heading": "Adventure Touring",
             "heading_bg_color": "#484848",
             "heading_text_color": "#ffffff",
@@ -1453,7 +1745,7 @@
         "template--21357814907174__4385557a-530a-4bbb-bc22-23d0815e7662-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/harley-davidson-wdc9ZAiwBB4-unsplash.jpg",
+            "image": "shopify:\/\/shop_images\/Reise_riding-genre_Touring_e98cf179-e25a-4b71-b303-018a37c22842.jpg",
             "heading": "Highway Cruiser",
             "heading_bg_color": "#6e6e6e",
             "heading_text_color": "#ffffff",
@@ -1465,7 +1757,7 @@
         "template--21357814907174__4385557a-530a-4bbb-bc22-23d0815e7662-column-4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/About_Us_Body_Cards_1920_x_800-04.jpg",
+            "image": "shopify:\/\/shop_images\/Reise_riding-genre_Urban.jpg",
             "heading": "Sport Touring",
             "heading_bg_color": "#9f9f9f",
             "heading_text_color": "#ffffff",
@@ -1502,6 +1794,7 @@
     "9b2815de-02e7-4a9b-909f-b89332f7cfec",
     "a020259e-1ab0-4622-8d7b-97394a670bc6",
     "5cc19abc-ebde-44b3-8733-77e80fbb1056",
+    "cce9bf65-e0b3-40ea-8821-1f91bc0577bf",
     "1b821284-9abc-4833-8e19-9119cd4f8d70",
     "e6067521-8746-4540-8dd1-951d6789dd0b",
     "f6e6d938-a2f3-4196-b769-e86256013e74",

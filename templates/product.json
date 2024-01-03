@@ -93,6 +93,14 @@
             "spacing": "mt-8 mb-8"
           }
         },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": true,
+            "show_pickup_availability": true
+          }
+        },
         "9cef650d-e737-4c38-badd-08b81e3223f4": {
           "type": "pop-up",
           "disabled": true,
@@ -106,14 +114,6 @@
         "19185067-2987-4c03-8e8c-bb7a81398408": {
           "type": "icons",
           "settings": {
-          }
-        },
-        "buy-buttons": {
-          "type": "buy-buttons",
-          "settings": {
-            "show_qty_selector": true,
-            "enable_dynamic_checkout": true,
-            "show_pickup_availability": true
           }
         },
         "message-1": {
@@ -202,9 +202,9 @@
         "divider-0",
         "variant-picker",
         "divider-1",
+        "buy-buttons",
         "9cef650d-e737-4c38-badd-08b81e3223f4",
         "19185067-2987-4c03-8e8c-bb7a81398408",
-        "buy-buttons",
         "message-1",
         "message-2",
         "collapsible-content-1",

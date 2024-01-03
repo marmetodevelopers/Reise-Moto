@@ -444,7 +444,7 @@
     "free_shipping_color_scheme": "none",
     "animations_enabled": "mobile_desktop",
     "animation_speed": "medium",
-    "image_quality": "1",
+    "image_quality": "1.25",
     "blur_message_delay": 4,
     "vibrate_on_atc": true,
     "checkout_body_background_color": "#000000",

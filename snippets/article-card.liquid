@@ -108,8 +108,7 @@
           {%- endfor -%}
         </div>
       {%- endif -%}
-
-      <h2 class="card__title {% if featured %}h4{% else %}h6{% endif %}">
+     <h2 class="card__title {% if featured %}h4{% else %}h6{% endif %}">
         {%- if article != blank -%}
           <a href="{{ article.url }}" class="card-link text-current">{{ article.title | escape }}</a>
         {%- else -%}
