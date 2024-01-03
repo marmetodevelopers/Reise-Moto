@@ -89,7 +89,7 @@
             "selector_style": "buttons",
             "enable_dynamic_availability": true,
             "show_backorder_text": true,
-            "enable_size_chart": true,
+            "enable_size_chart": false,
             "size_chart_variant": "POP_UP",
             "size_chart_page": "brand-ethos",
             "image_popup": "shopify:\/\/shop_images\/Screenshot_77.png"
