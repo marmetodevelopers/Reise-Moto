@@ -342,6 +342,7 @@
         },
         "template--21357815267622__53d4f58f-74eb-4803-9fe5-234387ccde30-question-2": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "Material Specification",
@@ -358,6 +359,61 @@
         "heading_align": "text-center",
         "color_scheme": "2",
         "full_width": true
+      }
+    },
+    "45108cd1-db0c-4139-953b-5dc2584942a0": {
+      "type": "link-lists",
+      "blocks": {
+        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-1": {
+          "type": "column",
+          "settings": {
+            "heading": "Features",
+            "heading_bg_color": "#2e2e2e",
+            "heading_text_color": "#ffffff",
+            "menu": "",
+            "button_label": "",
+            "button_link": "\/"
+          }
+        },
+        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-2": {
+          "type": "column",
+          "settings": {
+            "heading": "Advantages",
+            "heading_bg_color": "#484848",
+            "heading_text_color": "#ffffff",
+            "menu": "",
+            "button_label": "",
+            "button_link": "\/"
+          }
+        },
+        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-3": {
+          "type": "column",
+          "settings": {
+            "heading": "Benefits",
+            "heading_bg_color": "#6e6e6e",
+            "heading_text_color": "#ffffff",
+            "menu": "",
+            "button_label": "",
+            "button_link": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-1",
+        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-2",
+        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "column_size": "medium",
+        "column_align": "left",
+        "color_scheme": "1",
+        "image_ratio": "1.77",
+        "button_style": "btn--primary"
       }
     },
     "product-features": {
@@ -622,73 +678,18 @@
       "settings": {
         "full_width": false
       }
-    },
-    "45108cd1-db0c-4139-953b-5dc2584942a0": {
-      "type": "link-lists",
-      "blocks": {
-        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-1": {
-          "type": "column",
-          "settings": {
-            "heading": "Features",
-            "heading_bg_color": "#2e2e2e",
-            "heading_text_color": "#ffffff",
-            "menu": "",
-            "button_label": "",
-            "button_link": "\/"
-          }
-        },
-        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-2": {
-          "type": "column",
-          "settings": {
-            "heading": "Advantages",
-            "heading_bg_color": "#484848",
-            "heading_text_color": "#ffffff",
-            "menu": "",
-            "button_label": "",
-            "button_link": "\/"
-          }
-        },
-        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-3": {
-          "type": "column",
-          "settings": {
-            "heading": "Benefits",
-            "heading_bg_color": "#6e6e6e",
-            "heading_text_color": "#ffffff",
-            "menu": "",
-            "button_label": "",
-            "button_link": "\/"
-          }
-        }
-      },
-      "block_order": [
-        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-1",
-        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-2",
-        "template--21747923321126__45108cd1-db0c-4139-953b-5dc2584942a0-column-3"
-      ],
-      "settings": {
-        "title": "Link lists",
-        "heading_align": "text-start",
-        "button_label": "",
-        "button_link": "",
-        "layout": "carousel",
-        "column_size": "medium",
-        "column_align": "left",
-        "color_scheme": "1",
-        "image_ratio": "1.77",
-        "button_style": "btn--primary"
-      }
     }
   },
   "order": [
     "main",
     "details",
     "53d4f58f-74eb-4803-9fe5-234387ccde30",
+    "45108cd1-db0c-4139-953b-5dc2584942a0",
     "product-features",
     "product-comparison-grid",
     "collection-list",
     "image-banner",
     "recommendations",
-    "opinew-reviews-product-page-code",
-    "45108cd1-db0c-4139-953b-5dc2584942a0"
+    "opinew-reviews-product-page-code"
   ]
 }
