@@ -230,3 +230,8 @@ variant-picker.no-js-hidden,
 .heading_container .tab{
   justify-content: center;
 }
+
+
+.product-info__block.product-info__block--sm.product-info__title h1{
+  text-transform: none;
+}
