@@ -429,7 +429,7 @@
           "settings": {
             "button_label": "shop now",
             "button_link": "shopify:\/\/collections",
-            "button_style": "btn btn--secondary"
+            "button_style": "btn btn--primary"
           }
         }
       },
