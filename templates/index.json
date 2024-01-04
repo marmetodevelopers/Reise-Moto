@@ -426,6 +426,7 @@
         },
         "template--21171977945382__a020259e-1ab0-4622-8d7b-97394a670bc6-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "shop now",
             "button_link": "shopify:\/\/collections",
