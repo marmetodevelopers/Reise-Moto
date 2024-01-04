@@ -251,7 +251,7 @@
         "media_arrows": "desktop",
         "show_slide_count": true,
         "border_color": "#ffffff",
-        "bg_color": "#2b2b2b",
+        "bg_color": "#ffffff",
         "enable_media_grouping": false,
         "media_grouping_option": "{{ product.metafields.custom.product_specs_id.value.product_specs_key | metafield_text }}"
       }
