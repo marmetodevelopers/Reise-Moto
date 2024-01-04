@@ -371,7 +371,7 @@
             "heading_bg_color": "#2e2e2e",
             "heading_text_color": "#ffffff",
             "menu": "",
-            "button_label": "Optional button",
+            "button_label": "",
             "button_link": "\/"
           }
         },
