@@ -382,7 +382,7 @@
             "heading_bg_color": "#484848",
             "heading_text_color": "#ffffff",
             "menu": "",
-            "button_label": "Optional button",
+            "button_label": "",
             "button_link": "\/"
           }
         },
@@ -393,7 +393,7 @@
             "heading_bg_color": "#6e6e6e",
             "heading_text_color": "#ffffff",
             "menu": "",
-            "button_label": "Optional button",
+            "button_label": "",
             "button_link": "\/"
           }
         }
