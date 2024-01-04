@@ -123,7 +123,7 @@
                   </div>
                 {%- endif -%}
 
-                {%- if block.settings.menu != blank -%}
+               
                   <ul class="pl-6 pr-6 card__link-list w-full flex-auto" role="list">
                     {%- for link in block.settings.menu.links -%}
                       <li class="aaaa">
@@ -131,15 +131,15 @@
                       </li>
                     {%- endfor -%}
                   </ul>
-                {%- else -%}
+               
                   <ul class="pl-6 pr-6 card__link-list w-full flex-auto" role="list">
-                    {%- for i in (1..5) -%}
+                    
                       <li class="bbb">
                         <span class="card__link-list-item block border-bottom text-inherit hover:underline">Link list item aaaa</span>
                       </li>
-                    {%- endfor -%}
+                    
                   </ul>
-                {%- endif -%}
+         
 
                 {%- if block.settings.button_label != blank -%}
                   <div class="pl-6 pr-6 mt-6 w-full">
