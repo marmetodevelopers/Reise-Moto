@@ -33,9 +33,9 @@
   height: calc(100% + 120px);
 }
 .video-section__bg-video video {
-  height: calc(100% - 120px);
+  /* height: calc(100% - 120px);
   margin: 60px 0;
-  object-fit: cover;
+  object-fit: cover; */
 }
 
 .video-section__play-btn {
