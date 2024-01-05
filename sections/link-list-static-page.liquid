@@ -135,7 +135,9 @@
                   <ul class="pl-6 pr-6 card__link-list w-full flex-auto" role="list">
                     
                       <li class="bbb">
+          {% if block.settings.subheaing1 != blank %}
                         <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing1 }}</span>
+            {% endif %}
           <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing2 }}</span>
           <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing3 }}</span>
           <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing4 }}</span>
