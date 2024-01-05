@@ -27,12 +27,11 @@
         },
         "template--21830723404070__a8ba347b-90e6-46fc-ab4c-58b689230dd9-button-1": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_1_label": "Optional button",
+            "button_1_label": "Warranty Registration",
             "button_1_link": "",
             "button_1_style": "btn btn--primary",
-            "button_2_label": "Optional button",
+            "button_2_label": "",
             "button_2_link": "",
             "button_2_style": "btn btn--primary"
           }
@@ -54,7 +53,7 @@
         "mob_center_text": false,
         "mobile_stacked": false,
         "color_scheme": "white",
-        "full_width": true,
+        "full_width": false,
         "transparent_content_color": "#ffffff",
         "tint_color": "#000000",
         "tint_opacity": 40,
