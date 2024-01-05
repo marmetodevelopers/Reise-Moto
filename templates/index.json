@@ -386,7 +386,7 @@
     "9b2815de-02e7-4a9b-909f-b89332f7cfec": {
       "type": "featured-collection",
       "settings": {
-        "title": "Hot Products",
+        "title": "Recommended products",
         "heading_align": "text-start",
         "show_view_all": true,
         "collection": "hot-products",
