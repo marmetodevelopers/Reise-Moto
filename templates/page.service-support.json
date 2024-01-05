@@ -166,7 +166,7 @@
             "heading_bg_color": "#2e2e2e",
             "heading_text_color": "#ffffff",
             "menu": "",
-            "button_label": "Optional button",
+            "button_label": "",
             "button_link": "\/"
           }
         },
@@ -194,7 +194,7 @@
             "heading": "Every Quarter, Check For",
             "subheaing1": "Bead and band damage",
             "subheaing2": "Tread depth indicated by markers",
-            "subheaing3": "",
+            "subheaing3": "Any cord visibility",
             "subheaing4": "",
             "subheaing5": "",
             "heading_bg_color": "#6e6e6e",
@@ -216,7 +216,7 @@
         "button_label": "",
         "button_link": "",
         "layout": "carousel",
-        "column_size": "small",
+        "column_size": "medium",
         "column_align": "left",
         "color_scheme": "1",
         "image_ratio": "1.77",
