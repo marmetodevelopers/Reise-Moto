@@ -138,11 +138,19 @@
           {% if block.settings.subheaing1 != blank %}
                         <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing1 }}</span>
             {% endif %}
+          {% if block.settings.subheaing2 != blank %}
           <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing2 }}</span>
+            {% endif %}
+            {% if block.settings.subheaing3 != blank %}
           <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing3 }}</span>
+              {% endif %}
+          {% if block.settings.subheaing4 != blank %}
           <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing4 }}</span>
+            {% endif %}
+          {% if block.settings.subheaing5 != blank %}
           <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing5 }}</span>
                       </li>
+            {% endif %}
                     
                   </ul>
          
