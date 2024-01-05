@@ -235,3 +235,6 @@ variant-picker.no-js-hidden,
 .product-info__block.product-info__block--sm.product-info__title h1{
   text-transform: none;
 }
+.scrolling-banner.scrolling-banner--pausable{
+  margin-top: 30px;
+}
