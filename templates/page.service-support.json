@@ -12,18 +12,16 @@
       "blocks": {
         "template--21830723404070__a8ba347b-90e6-46fc-ab4c-58b689230dd9-heading-1": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
+            "heading": "6 <br> years <br> Standard warranty*",
+            "heading_size": "h3",
             "heading_h1": false
           }
         },
         "template--21830723404070__a8ba347b-90e6-46fc-ab4c-58b689230dd9-text-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text": "<p><strong>Two Wheel Tyres, manufactured under the authorised TM “reise”, used in normal service conditions and in accordance with maintenance recommendationsand safety warnings of Reise, are covered by a warranty subject to the terms and conditions set out below.<\/strong><\/p>",
             "enlarge_text": true
           }
         },
