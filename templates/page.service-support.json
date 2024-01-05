@@ -61,6 +61,59 @@
         "prevent_animation": false
       }
     },
+    "6ab3ae2f-71c0-4f96-8c13-5c47387687ed": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21830723404070__6ab3ae2f-71c0-4f96-8c13-5c47387687ed-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--21830723404070__6ab3ae2f-71c0-4f96-8c13-5c47387687ed-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Care For Your Tyre",
+            "heading_size": "h4",
+            "heading_h1": false
+          }
+        },
+        "template--21830723404070__6ab3ae2f-71c0-4f96-8c13-5c47387687ed-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your store with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21830723404070__6ab3ae2f-71c0-4f96-8c13-5c47387687ed-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21830723404070__6ab3ae2f-71c0-4f96-8c13-5c47387687ed-subheading-1",
+        "template--21830723404070__6ab3ae2f-71c0-4f96-8c13-5c47387687ed-heading-1",
+        "template--21830723404070__6ab3ae2f-71c0-4f96-8c13-5c47387687ed-text-1",
+        "template--21830723404070__6ab3ae2f-71c0-4f96-8c13-5c47387687ed-button-1"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
     "cf007f71-30ea-4aea-b3a9-813596e5cfcc": {
       "type": "links-list-product-page",
       "blocks": {
@@ -227,6 +280,7 @@
   "order": [
     "main",
     "a8ba347b-90e6-46fc-ab4c-58b689230dd9",
+    "6ab3ae2f-71c0-4f96-8c13-5c47387687ed",
     "cf007f71-30ea-4aea-b3a9-813596e5cfcc",
     "dacaa899-2a9b-4cad-8f4e-e8af4ed38c10"
   ]
