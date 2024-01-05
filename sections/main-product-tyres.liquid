@@ -237,7 +237,7 @@
               {%- if section.settings.sticky_atc_panel and product.available -%}
                 <a class="product-options--anchor" id="variants" rel="nofollow"></a>
               {%- endif -%}
-              <div class="product-info__block product-options" {{ block.shopify_attributes }}>
+              <div class="product-info__block product-options tyres_product_page" {{ block.shopify_attributes }}>
                 {% render 'variant-picker',
                   product: product,
                   product_form_id: product_form_id,
