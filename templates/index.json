@@ -1786,6 +1786,99 @@
         "image_ratio": "1.77",
         "button_style": "btn--primary"
       }
+    },
+    "6ab69dea-2ead-4983-aecb-92386b7f1430": {
+      "type": "slide-video",
+      "blocks": {
+        "0099826b-4d33-477a-8e32-10e5d65839e3": {
+          "type": "slider-show",
+          "settings": {
+            "image": "shopify:\/\/files\/videos\/Urban.mp4",
+            "image_mobile": "shopify:\/\/files\/videos\/Touring.mp4",
+            "caption_text": "HANDCRAFTED & UNIQUE",
+            "caption_text_color": "#c5c5c5",
+            "heading_text": "HANDCRAFTED & UNIQUE",
+            "font_size": 30,
+            "font_weight": 100,
+            "mobile_font_size": 30,
+            "mobile_font_weight": 100,
+            "heading_text_color": "#c5c5c5",
+            "paragraph_text": "<p>HANDCRAFTED & UNIQUE<\/p>",
+            "paragraph_text_color": "#c5c5c5",
+            "button_text": "Shop now",
+            "button_link": "",
+            "btn-text-color": "#c5c5c5",
+            "btn-background-color": "#c5c5c5",
+            "button_text_two": "Shop now",
+            "button_link_two": "",
+            "btn-text-color_two": "#c5c5c5",
+            "btn-background-color_two": "#c5c5c5",
+            "content_position": "align-start justify-start",
+            "text_alignment": "left"
+          }
+        },
+        "f1d51c47-a5d8-4d5b-9de1-9cf893ac9860": {
+          "type": "slider-show",
+          "settings": {
+            "image": "shopify:\/\/files\/videos\/Performance.mp4",
+            "image_mobile": "shopify:\/\/files\/videos\/Performance.mp4",
+            "caption_text": "HANDCRAFTED & UNIQUE",
+            "caption_text_color": "#c5c5c5",
+            "heading_text": "HANDCRAFTED & UNIQUE",
+            "font_size": 30,
+            "font_weight": 100,
+            "mobile_font_size": 30,
+            "mobile_font_weight": 100,
+            "heading_text_color": "#c5c5c5",
+            "paragraph_text": "<p>HANDCRAFTED & UNIQUE<\/p>",
+            "paragraph_text_color": "#c5c5c5",
+            "button_text": "Shop now",
+            "button_link": "",
+            "btn-text-color": "#c5c5c5",
+            "btn-background-color": "#c5c5c5",
+            "button_text_two": "Shop now",
+            "button_link_two": "",
+            "btn-text-color_two": "#c5c5c5",
+            "btn-background-color_two": "#c5c5c5",
+            "content_position": "align-start justify-start",
+            "text_alignment": "left"
+          }
+        },
+        "4ab143c8-7887-4b69-8033-dbe778ec7df1": {
+          "type": "slider-show",
+          "settings": {
+            "image": "shopify:\/\/files\/videos\/Off road.mp4",
+            "image_mobile": "shopify:\/\/files\/videos\/Off road.mp4",
+            "caption_text": "HANDCRAFTED & UNIQUE",
+            "caption_text_color": "#c5c5c5",
+            "heading_text": "HANDCRAFTED & UNIQUE",
+            "font_size": 30,
+            "font_weight": 100,
+            "mobile_font_size": 30,
+            "mobile_font_weight": 100,
+            "heading_text_color": "#c5c5c5",
+            "paragraph_text": "<p>HANDCRAFTED & UNIQUE<\/p>",
+            "paragraph_text_color": "#c5c5c5",
+            "button_text": "Shop now",
+            "button_link": "",
+            "btn-text-color": "#c5c5c5",
+            "btn-background-color": "#c5c5c5",
+            "button_text_two": "Shop now",
+            "button_link_two": "",
+            "btn-text-color_two": "#c5c5c5",
+            "btn-background-color_two": "#c5c5c5",
+            "content_position": "align-start justify-start",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "0099826b-4d33-477a-8e32-10e5d65839e3",
+        "f1d51c47-a5d8-4d5b-9de1-9cf893ac9860",
+        "4ab143c8-7887-4b69-8033-dbe778ec7df1"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1812,6 +1905,7 @@
     "094efb86-5a24-49e5-b3f6-6857491acedd",
     "ae056cb1-9f30-4744-afdd-e7eb28d39507",
     "c9cf0fd4-cc5f-456b-9d81-475ebea4a305",
-    "4385557a-530a-4bbb-bc22-23d0815e7662"
+    "4385557a-530a-4bbb-bc22-23d0815e7662",
+    "6ab69dea-2ead-4983-aecb-92386b7f1430"
   ]
 }
