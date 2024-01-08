@@ -1,10 +1,13 @@
- {{ 'slide-video.css' | asset_url | stylesheet_tag }}
+{{ 'slide-video.css' | asset_url | stylesheet_tag }}
 <div class="splide">
   <div class="splide__track">
     <ul class="splide__list splide_ul_container">
       {% for block in section.blocks %}
         <li class="splide__slide grid__item product_card_items">
-          {{ block.settings.video_url | video_tag: autoplay: true, loop: section.settings.enable_video_looping, controls: true, muted: true }}
+          {{
+            block.settings.video_url
+            | video_tag: autoplay: true, loop: section.settings.enable_video_looping, controls: true, muted: true
+          }}
         </li>
       {% endfor %}
     </ul>
@@ -57,8 +60,6 @@
           "label": "Image (Mobile)",
           "info": "600 x 800px .jpg recommended"
         },
-
-       
         {
           "type": "range",
           "id": "font_size",
