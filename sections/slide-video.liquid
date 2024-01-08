@@ -23,26 +23,7 @@
                  
           </div>
         </a>
-          <div class="sliding_content flex {{ block.settings.content_position }}">
-            <div class="text_align {{ block.settings.text_alignment }}">
-              <div class="main_text_wrapper">
-                {% if block.settings.caption_text != blank %}
-                  <div class=" caption-{{ block.id }}">{{ block.settings.caption_text }}</div>
-                {% endif %}
-                {% if block.settings.heading_text != blank %}
-                  <div class="main_heading_banner text-heading-{{block.id}} {{ block.settings.text_alignment }} heading">
-                    {{ block.settings.heading_text }}
-                  </div>
-                {% endif %}
-                {% if block.settings.paragraph_text != blank %}
-                  <div class="paragraph-{{ block.id }}">{{ block.settings.paragraph_text }}</div>
-                {% endif %}
-                {% if block.settings.button_text != blank %}
-                  <a href="{{ block.settings.button_link }}" class="btn-{{ block.id }} button banner_image_button">{{ block.settings.button_text }}</a>
-                {% endif %}
-              </div>
-            </div>
-          </div>
+        
         </div>
       {% endfor %}
     </div>
