@@ -133,8 +133,8 @@
   .slideshow__wrapper_container.flickity-enabled.is-draggable
     .flickity-page-dots
     .dot {
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
   }
 
   .slideshow_image_container img {
