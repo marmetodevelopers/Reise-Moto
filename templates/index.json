@@ -1770,12 +1770,40 @@
             "content_position": "align-start justify-start",
             "text_alignment": "left"
           }
+        },
+        "4c2af663-21d3-4683-a2a4-d3b53d1d6e92": {
+          "type": "slider-show",
+          "settings": {
+            "image": "shopify:\/\/files\/videos\/Touring.mp4",
+            "image_mobile": "shopify:\/\/files\/videos\/Off road.mp4",
+            "caption_text": "",
+            "caption_text_color": "",
+            "heading_text": "",
+            "font_size": 30,
+            "font_weight": 100,
+            "mobile_font_size": 30,
+            "mobile_font_weight": 100,
+            "heading_text_color": "",
+            "paragraph_text": "",
+            "paragraph_text_color": "",
+            "button_text": "",
+            "button_link": "",
+            "btn-text-color": "",
+            "btn-background-color": "",
+            "button_text_two": "",
+            "button_link_two": "",
+            "btn-text-color_two": "",
+            "btn-background-color_two": "",
+            "content_position": "align-start justify-start",
+            "text_alignment": "left"
+          }
         }
       },
       "block_order": [
         "0099826b-4d33-477a-8e32-10e5d65839e3",
         "f1d51c47-a5d8-4d5b-9de1-9cf893ac9860",
-        "4ab143c8-7887-4b69-8033-dbe778ec7df1"
+        "4ab143c8-7887-4b69-8033-dbe778ec7df1",
+        "4c2af663-21d3-4683-a2a4-d3b53d1d6e92"
       ],
       "settings": {
       }
@@ -1934,9 +1962,9 @@
             "button_label_1": "Button label",
             "button_link_1": "",
             "button_color_deskptop": "#000000",
-            "button_text_color_deskptop": "#fff",
+            "button_text_color_deskptop": "#ffffff",
             "button_color_mobile": "#000000",
-            "button_text_color_mobile": "#fff",
+            "button_text_color_mobile": "#ffffff",
             "desktop_content_position": "middle-center",
             "desktop_content_alignment": "left",
             "text_alignment": false,
@@ -1948,6 +1976,32 @@
           "settings": {
             "video": "shopify:\/\/files\/videos\/Urban.mp4",
             "video_mobile": "shopify:\/\/files\/videos\/Off road.mp4",
+            "slide_heading": "Slide Heading",
+            "slide_heading_color_desktop": "#000000",
+            "slide_heading_color": "#000000",
+            "heading_size": "h1",
+            "slide_subheading": "",
+            "slide_subheading_color_desktop": "#000000",
+            "slide_subheading_color": "#000000",
+            "text_style": "body",
+            "caption": "",
+            "caption_color_deskptop": "#000000",
+            "caption_color_mobile": "#000000",
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_color_deskptop": "#000000",
+            "button_text_color_deskptop": "#ffffff",
+            "button_color_mobile": "#000000",
+            "button_text_color_mobile": "#ffffff",
+            "desktop_content_position": "middle-center",
+            "desktop_content_alignment": "left",
+            "text_alignment": false,
+            "button_alignment": false
+          }
+        },
+        "73237a41-eaea-4445-b967-f92294d6ea44": {
+          "type": "carousel_block",
+          "settings": {
             "slide_heading": "Slide Heading",
             "slide_heading_color_desktop": "#000000",
             "slide_heading_color": "#000000",
@@ -1974,7 +2028,8 @@
       },
       "block_order": [
         "4ab25d27-e905-4325-bd4a-27072a89ac1c",
-        "b6522a12-8059-4c45-b092-4a312abbcca3"
+        "b6522a12-8059-4c45-b092-4a312abbcca3",
+        "73237a41-eaea-4445-b967-f92294d6ea44"
       ],
       "disabled": true,
       "settings": {
