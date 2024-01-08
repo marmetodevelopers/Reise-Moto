@@ -16,26 +16,25 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script>
-  var splide;
-
-  function initializeSplide() {
-
-    splide = new Splide('.splide', {
-      perPage: perPage,
+  document.addEventListener('DOMContentLoaded', function () {
+    var splide = new Splide('.splide', {
+      perPage: 1, // Set the number of slides per page
       rewind: true,
       width: '100%', // Set slide width to 100%
     });
 
     splide.mount();
-  }
 
-  // Initialize the Splide slider on page load
-  initializeSplide();
-
-  // Update the Splide slider when the window is resized
-  window.addEventListener('resize', function () {
-    splide.destroy(); // Destroy the existing Splide instance
-    initializeSplide(); // Initialize a new instance with the updated perPage value
+    // Update the Splide slider when the window is resized
+    window.addEventListener('resize', function () {
+      splide.destroy(); // Destroy the existing Splide instance
+      splide = new Splide('.splide', {
+        perPage: 1,
+        rewind: true,
+        width: '100%',
+      });
+      splide.mount(); // Re-initialize the Splide slider
+    });
   });
 </script>
 
