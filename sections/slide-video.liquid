@@ -1,36 +1,54 @@
 {{ 'slide-video.css' | asset_url | stylesheet_tag }}
+
 <div class="splide">
   <div class="splide__track">
     <ul class="splide__list splide_ul_container">
       {% for block in section.blocks %}
         <li class="splide__slide grid__item product_card_items">
-          {{
-            block.settings.video_url
-            | video_tag: autoplay: true, loop: section.settings.enable_video_looping, controls: true, muted: true
-          }}
+          {% comment %} Check if the video URL is accessible and properly formatted {% endcomment %}
+          {% if block.settings.video_url %}
+            {{ block.settings.video_url | video_tag: autoplay: false, loop: section.settings.enable_video_looping, controls: true, muted: true }}
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
   </div>
 </div>
+
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     var splide = new Splide('.splide', {
-      perPage: 1, // Set the number of slides per page
+      perPage: 1,
       rewind: true,
-      width: '100%', // Set slide width to 100%
+      width: '100%',
+      autoplay: false, // Set autoplay to false initially
     });
+
     splide.mount();
+
+    // Play video on slider interaction
+    document.querySelectorAll('.splide').forEach(function (slider) {
+      slider.addEventListener('click', function () {
+        var video = slider.querySelector('video');
+        if (video) {
+          video.play().catch(function (error) {
+            console.error('Autoplay failed:', error);
+          });
+        }
+      });
+    });
+
     // Update the Splide slider when the window is resized
     window.addEventListener('resize', function () {
-      splide.destroy(); // Destroy the existing Splide instance
+      splide.destroy();
       splide = new Splide('.splide', {
         perPage: 1,
         rewind: true,
         width: '100%',
+        autoplay: false,
       });
-      splide.mount(); // Re-initialize the Splide slider
+      splide.mount();
     });
   });
 </script>
@@ -50,45 +68,9 @@
         },
         {
           "type": "video",
-          "id": "image",
-          "label": "video_url",
-          "info": "1200 x 500px .jpg recommended"
-        },
-        {
-          "type": "range",
-          "id": "font_size",
-          "label": "Font size",
-          "min": 20,
-          "max": 100,
-          "step": 1,
-          "default": 30
-        },
-        {
-          "type": "range",
-          "id": "font_weight",
-          "label": "Font size",
-          "min": 100,
-          "max": 1000,
-          "step": 50,
-          "default": 100
-        },
-        {
-          "type": "range",
-          "id": "mobile_font_size",
-          "label": "Mobile Font size",
-          "min": 20,
-          "max": 100,
-          "step": 1,
-          "default": 30
-        },
-        {
-          "type": "range",
-          "id": "mobile_font_weight",
-          "label": "Mobile Font size",
-          "min": 100,
-          "max": 1000,
-          "step": 50,
-          "default": 100
+          "id": "video_url",
+          "label": "Video URL",
+          "info": "Ensure the video URL is valid and properly formatted"
         }
       ]
     }
