@@ -133,6 +133,18 @@
                   </ul>
                
                   <ul class="pl-6 pr-6 card__link-list w-full flex-auto" role="list">
+          {% assign icons = product.metafields.custom.features.value %}
+{% if icons != empty %}
+{% for icon in icons %}
+<div class="grid__item grid__item--one-third product__ingredients-main">
+<div class="product__ingredients-contents flex">
+<div class="product_meta_image">
+ <p>{{ icon }}</p>
+</div>
+</div>
+</div>
+{% endfor %}
+  {% endif %}
                     
                       <li class="bbb">
                         <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing1 }}</span>
