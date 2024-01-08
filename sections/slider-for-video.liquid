@@ -1,12 +1,313 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{{ 'hero-banner.css' | asset_url | stylesheet_tag }}
+{{ 'section-slide-show.js' | asset_url | script_tag }}
+
+<div class="slideshow">
+  <div class="slideshow__wrapper">
+    <div
+      class="slideshow__wrapper_container"
+      class="carousel"
+      data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": 5000, "prevNextButtons": false,"fullscreen": true }'
+    >
+      {% for block in section.blocks %}
+        <div class="slideshow__item carousel-cell">
+          <a href="{{block.settings.button_link_two}}">
+          <div class="slideshow_image_container h-full">
+              {% assign mobile_image = block.settings.image_mobile | default: block.settings.image %}
+              {% render 'image' class = 'image' mobileSrc: block.settings.image_mobile, desktopSrc: block.settings.image %}
+          </div>
+        </a>
+          <div class="sliding_content flex {{ block.settings.content_position }}">
+            <div class="text_align {{ block.settings.text_alignment }}">
+              <div class="main_text_wrapper">
+                {% if block.settings.caption_text != blank %}
+                  <div class=" caption-{{ block.id }}">{{ block.settings.caption_text }}</div>
+                {% endif %}
+                {% if block.settings.heading_text != blank %}
+                  <div class="main_heading_banner text-heading-{{block.id}} {{ block.settings.text_alignment }} heading">
+                    {{ block.settings.heading_text }}
+                  </div>
+                {% endif %}
+                {% if block.settings.paragraph_text != blank %}
+                  <div class="paragraph-{{ block.id }}">{{ block.settings.paragraph_text }}</div>
+                {% endif %}
+                {% if block.settings.button_text != blank %}
+                  <a href="{{ block.settings.button_link }}" class="btn-{{ block.id }} button banner_image_button">{{ block.settings.button_text }}</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% style %}
+    {% for block in section.blocks %}
+      .caption-{{ block.id }}{
+        color: {{ block.settings.caption_text_color}};
+      }
+      .btn-{{ block.id }}{
+        color: {{ block.settings.btn-text-color}};
+        background: {{ block.settings.btn-background-color}};
+      }
+      .text-heading-{{ block.id}}{
+        color: {{ block.settings.heading_text_color}};
+        font-size: {{ block.settings.font_size}}px;
+        font-weight: {{ block.settings.font_weight}};
+      }
+
+    {% endfor %}
+    @media only screen and (max-width:749px) {
+      {% for block in section.blocks %}
+        .btn-{{ block.id }}{
+          width: 50%;
+        }
+        .paragraph-{{ block.id }}{
+          color: {{ block.settings.paragraph_text_color}};
+        }
+        .text-heading-{{ block.id}}{
+          font-size: {{ block.settings.mobile_font_size}}px;
+          font-weight: {{ block.settings.mobile_font_weight}};
+        }
+      {% endfor %}
+    }
+    @media only screen and (min-width:750px) {
+      {% for block in section.blocks %}
+        .paragraph-{{ block.id }}{
+          color: {{ block.settings.paragraph_text_color}};
+      }
+
+    {% endfor %}
   }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "slide show one",
+  "tag": "section",
+  "blocks": [
+    {
+      "name": "slider",
+      "type": "slider-show",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image Settings"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1200 x 500px .jpg recommended"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Image (Mobile)",
+          "info": "600 x 800px .jpg recommended"
+        },
+
+        {
+          "type": "header",
+          "content": "HEADER SETTINGS"
+        },
+        {
+          "type": "text",
+          "id": "caption_text",
+          "label": "Caption text",
+          "default": "HANDCRAFTED & UNIQUE"
+        },
+        {
+          "type": "color",
+          "id": "caption_text_color",
+          "label": "text",
+          "default": "#c5c5c5"
+        },
+        {
+          "type": "text",
+          "id": "heading_text",
+          "label": "Heading",
+          "default": "HANDCRAFTED & UNIQUE"
+        },
+        {
+          "type": "range",
+          "id": "font_size",
+          "label": "Font size",
+          "min": 20,
+          "max": 100,
+          "step": 1,
+          "default": 30
+        },
+        {
+          "type": "range",
+          "id": "font_weight",
+          "label": "Font size",
+          "min": 100,
+          "max": 1000,
+          "step": 50,
+          "default": 100
+        },
+        {
+          "type": "range",
+          "id": "mobile_font_size",
+          "label": "Mobile Font size",
+          "min": 20,
+          "max": 100,
+          "step": 1,
+          "default": 30
+        },
+        {
+          "type": "range",
+          "id": "mobile_font_weight",
+          "label": "Mobile Font size",
+          "min": 100,
+          "max": 1000,
+          "step": 50,
+          "default": 100
+        },
+        {
+          "type": "color",
+          "id": "heading_text_color",
+          "label": "Text Color",
+          "default": "#c5c5c5"
+        },
+        {
+          "type": "richtext",
+          "id": "paragraph_text",
+          "label": "Paragraph text",
+          "default": "<p>HANDCRAFTED & UNIQUE</p>"
+        },
+        {
+          "type": "color",
+          "id": "paragraph_text_color",
+          "label": "Text Color",
+          "default": "#c5c5c5"
+        },
+        {
+          "type": "header",
+          "content": "BUTTON SETTINGS"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "button text",
+          "default": "Shop now"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "color",
+          "id": "btn-text-color",
+          "label": "Text Color",
+          "default": "#c5c5c5"
+        },
+        {
+          "type": "color",
+          "id": "btn-background-color",
+          "label": "Background Color",
+          "default": "#c5c5c5"
+        },
+        {
+          "type": "text",
+          "id": "button_text_two",
+          "label": "button text",
+          "default": "Shop now"
+        },
+        {
+          "type": "url",
+          "id": "button_link_two",
+          "label": "Button link"
+        },
+        {
+          "type": "color",
+          "id": "btn-text-color_two",
+          "label": "Text Color",
+          "default": "#c5c5c5"
+        },
+        {
+          "type": "color",
+          "id": "btn-background-color_two",
+          "label": "Background Color",
+          "default": "#c5c5c5"
+        },
+        {
+          "type": "header",
+          "content": "CONTENT SETTINGS"
+        },
+        {
+          "type": "select",
+          "id": "content_position",
+          "label": "Content position",
+          "options": [
+            {
+              "value": "align-start justify-start",
+              "label": "Top left"
+            },
+            {
+              "value": "align-start justify-center",
+              "label": "Top center"
+            },
+            {
+              "value": "align-start justify-end",
+              "label": "Top right"
+            },
+            {
+              "value": "align-center justify-start",
+              "label": "Middle left"
+            },
+            {
+              "value": "align-center justify-center",
+              "label": "Middle center"
+            },
+            {
+              "value": "align-center justify-end",
+              "label": "Middle right"
+            },
+            {
+              "value": "align-end justify-start",
+              "label": "Bottom left"
+            },
+            {
+              "value": "align-end justify-center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "align-end justify-end",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "align-start justify-start"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Text alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "slide show one"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
