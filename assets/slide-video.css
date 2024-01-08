@@ -1,4 +1,4 @@
-/* .heading {
+.heading {
   line-height: 1em;
   text-transform: uppercase;
 }
@@ -150,7 +150,7 @@
 
 .slideshow__wrapper {
   background: #fff9e3;
-} */
+}
 .flickity-enabled.is-draggable .flickity-viewport{
   height: 50rem !important;
                                                  }
