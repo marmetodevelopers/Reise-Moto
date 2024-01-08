@@ -164,3 +164,9 @@
 .product_card_items video{
   height: 60rem;
 }
+@media only screen and (max-width: 749px){
+  .product_card_items video{
+    height: 100%;
+    width: 100%;
+  }
+}
