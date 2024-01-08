@@ -1693,108 +1693,25 @@
         "0099826b-4d33-477a-8e32-10e5d65839e3": {
           "type": "slider-show",
           "settings": {
-            "image": "shopify:\/\/files\/videos\/Urban.mp4",
-            "image_mobile": "shopify:\/\/files\/videos\/Touring.mp4",
-            "caption_text": "",
-            "caption_text_color": "#c5c5c5",
-            "heading_text": "",
-            "font_size": 30,
-            "font_weight": 100,
-            "mobile_font_size": 30,
-            "mobile_font_weight": 100,
-            "heading_text_color": "#c5c5c5",
-            "paragraph_text": "",
-            "paragraph_text_color": "#c5c5c5",
-            "button_text": "",
-            "button_link": "",
-            "btn-text-color": "#c5c5c5",
-            "btn-background-color": "#c5c5c5",
-            "button_text_two": "",
-            "button_link_two": "",
-            "btn-text-color_two": "#c5c5c5",
-            "btn-background-color_two": "#c5c5c5",
-            "content_position": "align-start justify-start",
-            "text_alignment": "left"
+            "video_url": "shopify:\/\/files\/videos\/Urban.mp4"
           }
         },
         "f1d51c47-a5d8-4d5b-9de1-9cf893ac9860": {
           "type": "slider-show",
           "settings": {
-            "image": "shopify:\/\/files\/videos\/Performance.mp4",
-            "image_mobile": "shopify:\/\/files\/videos\/Performance.mp4",
-            "caption_text": "",
-            "caption_text_color": "#c5c5c5",
-            "heading_text": "",
-            "font_size": 30,
-            "font_weight": 100,
-            "mobile_font_size": 30,
-            "mobile_font_weight": 100,
-            "heading_text_color": "#c5c5c5",
-            "paragraph_text": "",
-            "paragraph_text_color": "#c5c5c5",
-            "button_text": "",
-            "button_link": "",
-            "btn-text-color": "#c5c5c5",
-            "btn-background-color": "#c5c5c5",
-            "button_text_two": "",
-            "button_link_two": "",
-            "btn-text-color_two": "#c5c5c5",
-            "btn-background-color_two": "#c5c5c5",
-            "content_position": "align-start justify-start",
-            "text_alignment": "left"
+            "video_url": "shopify:\/\/files\/videos\/Touring.mp4"
           }
         },
         "4ab143c8-7887-4b69-8033-dbe778ec7df1": {
           "type": "slider-show",
           "settings": {
-            "image": "shopify:\/\/files\/videos\/Off road.mp4",
-            "image_mobile": "shopify:\/\/files\/videos\/Off road.mp4",
-            "caption_text": "",
-            "caption_text_color": "#c5c5c5",
-            "heading_text": "",
-            "font_size": 30,
-            "font_weight": 100,
-            "mobile_font_size": 30,
-            "mobile_font_weight": 100,
-            "heading_text_color": "#c5c5c5",
-            "paragraph_text": "",
-            "paragraph_text_color": "#c5c5c5",
-            "button_text": "",
-            "button_link": "",
-            "btn-text-color": "#c5c5c5",
-            "btn-background-color": "#c5c5c5",
-            "button_text_two": "",
-            "button_link_two": "",
-            "btn-text-color_two": "#c5c5c5",
-            "btn-background-color_two": "#c5c5c5",
-            "content_position": "align-start justify-start",
-            "text_alignment": "left"
+            "video_url": "shopify:\/\/files\/videos\/Performance.mp4"
           }
         },
         "4c2af663-21d3-4683-a2a4-d3b53d1d6e92": {
           "type": "slider-show",
           "settings": {
-            "image": "shopify:\/\/files\/videos\/Touring.mp4",
-            "caption_text": "",
-            "caption_text_color": "",
-            "heading_text": "",
-            "font_size": 30,
-            "font_weight": 100,
-            "mobile_font_size": 30,
-            "mobile_font_weight": 100,
-            "heading_text_color": "",
-            "paragraph_text": "",
-            "paragraph_text_color": "",
-            "button_text": "",
-            "button_link": "",
-            "btn-text-color": "",
-            "btn-background-color": "",
-            "button_text_two": "",
-            "button_link_two": "",
-            "btn-text-color_two": "",
-            "btn-background-color_two": "",
-            "content_position": "align-start justify-start",
-            "text_alignment": "left"
+            "video_url": "shopify:\/\/files\/videos\/Off road.mp4"
           }
         }
       },
