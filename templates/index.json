@@ -1836,6 +1836,102 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "3e59675b-6856-4a54-b60e-661599fd7c18": {
+      "type": "slide-show-video",
+      "blocks": {
+        "template--21747923190054__3e59675b-6856-4a54-b60e-661599fd7c18-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/files\/videos\/Urban.mp4",
+            "image_mobile": "shopify:\/\/files\/videos\/Urban.mp4",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "Subheading",
+            "heading": "Slideshow",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "<p>Share announcements and information with your customers and welcome them to your store.<\/p>",
+            "enlarge_text": true,
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "template--21747923190054__3e59675b-6856-4a54-b60e-661599fd7c18-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/files\/videos\/Performance.mp4",
+            "image_mobile": "shopify:\/\/files\/videos\/Performance.mp4",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "Subheading",
+            "heading": "Slideshow",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "<p>Share announcements and information with your customers and welcome them to your store.<\/p>",
+            "enlarge_text": true,
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21747923190054__3e59675b-6856-4a54-b60e-661599fd7c18-slide-1",
+        "template--21747923190054__3e59675b-6856-4a54-b60e-661599fd7c18-slide-2"
+      ],
+      "settings": {
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 5,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "accessibility_info": "",
+        "prevent_animation": true
+      }
     }
   },
   "order": [
@@ -1862,6 +1958,7 @@
     "094efb86-5a24-49e5-b3f6-6857491acedd",
     "ae056cb1-9f30-4744-afdd-e7eb28d39507",
     "4385557a-530a-4bbb-bc22-23d0815e7662",
-    "6ab69dea-2ead-4983-aecb-92386b7f1430"
+    "6ab69dea-2ead-4983-aecb-92386b7f1430",
+    "3e59675b-6856-4a54-b60e-661599fd7c18"
   ]
 }
