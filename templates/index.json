@@ -1777,7 +1777,6 @@
         "f1d51c47-a5d8-4d5b-9de1-9cf893ac9860",
         "4ab143c8-7887-4b69-8033-dbe778ec7df1"
       ],
-      "disabled": true,
       "settings": {
       }
     },
@@ -1892,6 +1891,7 @@
         "template--21747923190054__3e59675b-6856-4a54-b60e-661599fd7c18-slide-2",
         "8887638a-ff83-4e52-a3cb-6f6c50f62c98"
       ],
+      "disabled": true,
       "settings": {
         "height_mode": "auto",
         "fixed_height_desktop": 600,
@@ -1976,6 +1976,7 @@
         "4ab25d27-e905-4325-bd4a-27072a89ac1c",
         "b6522a12-8059-4c45-b092-4a312abbcca3"
       ],
+      "disabled": true,
       "settings": {
         "enable_pagination": false,
         "enable_arrows": true,
