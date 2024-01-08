@@ -151,3 +151,6 @@
 .slideshow__wrapper {
   background: #fff9e3;
 } */
+.flickity-enabled.is-draggable .flickity-viewport{
+  height: 370px;
+                                                 }
