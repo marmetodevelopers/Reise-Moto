@@ -13,7 +13,16 @@
           <a href="{{block.settings.button_link_two}}">
           <div class="slideshow_image_container h-full">
               {% assign mobile_image = block.settings.image_mobile | default: block.settings.image %}
-              {% render 'image' class = 'image' mobileSrc: block.settings.image_mobile, desktopSrc: block.settings.image %}
+              <!-- {% render 'image' class = 'image' mobileSrc: block.settings.image_mobile, desktopSrc: block.settings.image %} -->
+               {{
+                     block.settings.image_mobile
+                      | video_tag:
+                        autoplay: true,
+                        loop: section.settings.enable_video_looping,
+                        controls: true,
+                        muted: true
+                    }}
+                 
           </div>
         </a>
           <div class="sliding_content flex {{ block.settings.content_position }}">
