@@ -151,7 +151,7 @@
             {% endif %}
 
               {% if block.settings.heading == "ADVANTAGES"  %}
-                      {% assign icons = product.metafields.custom.features.value %}
+                      {% assign icons = product.metafields.custom.advantages.value %}
         {% if icons != empty %}
         {% for icon in icons %}
           <div class="grid__item grid__item--one-third product__ingredients-main">
@@ -168,7 +168,7 @@
             {% endif %}
 
               {% if block.settings.heading == "BENEFITS"  %}
-                      {% assign icons = product.metafields.custom.features.value %}
+                      {% assign icons = product.metafields.custom.benefits.value %}
         {% if icons != empty %}
         {% for icon in icons %}
           <div class="grid__item grid__item--one-third product__ingredients-main">
