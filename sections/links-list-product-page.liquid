@@ -78,7 +78,12 @@
   <div class="section" id="{{ section.id }}">
     {%- if section.settings.title != blank or section.settings.button_label != blank -%}
       <div class="container">
-        <div class="section__header items-center flex{% if section.settings.heading_align == 'text-center' %} flex-col text-center{% elsif section.settings.heading_align == 'text-end' %} flex-row-reverse flex-wrap{% else %} flex-row flex-wrap{% endif %} gap-x-theme"{% if settings.animations_enabled != "disabled" %} data-cc-animate{% endif %}>
+        <div
+          class="section__header items-center flex{% if section.settings.heading_align == 'text-center' %} flex-col text-center{% elsif section.settings.heading_align == 'text-end' %} flex-row-reverse flex-wrap{% else %} flex-row flex-wrap{% endif %} gap-x-theme"
+          {% if settings.animations_enabled != 'disabled' %}
+            data-cc-animate
+          {% endif %}
+        >
           {%- if section.settings.title != blank -%}
             <h2 class="h4 section__heading mb-0 flex-auto {{ section.settings.heading_align }}">
               {{- section.settings.title | escape -}}
@@ -99,13 +104,25 @@
     {%- endif -%}
 
     <div class="container">
-      <ul class="{% if carousel %}slider__grid grid {{ grid_classes }}{% else %} flex flex-wrap{% endif %} gap-x-theme gap-y-theme" role="list">
+      <ul
+        class="{% if carousel %}slider__grid grid {{ grid_classes }}{% else %} flex flex-wrap{% endif %} gap-x-theme gap-y-theme"
+        role="list"
+      >
         {%- for block in section.blocks -%}
-          <li class="multi-column block-{{ block.id }}{% if carousel %} slider__item{% endif %}" {{ block.shopify_attributes }}{% if settings.animations_enabled != "disabled" %} data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"{% endif %}>
+          <li
+            class="multi-column block-{{ block.id }}{% if carousel %} slider__item{% endif %}"
+            {{ block.shopify_attributes -}}
+            {% if settings.animations_enabled != 'disabled' %}
+              data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"
+            {% endif %}
+          >
             <div class="card {% unless color_scheme == 'none' %} color-scheme color-scheme--{{ color_scheme }}{% endunless %} relative flex flex-col h-full">
               {%- if block.settings.image != blank -%}
                 {%- capture sizes %}{% render 'sizes-attribute', grid: true, min: 1, md: 2 %}{% endcapture -%}
-                <div class="card__media media relative w-full" style="padding-top: {{ 1 | divided_by: image_ratio | times: 100 }}%;">
+                <div
+                  class="card__media media relative w-full"
+                  style="padding-top: {{ 1 | divided_by: image_ratio | times: 100 }}%;"
+                >
                   {% render 'image',
                     image: block.settings.image,
                     widths: '460, 700, 860, 1296',
@@ -118,88 +135,102 @@
 
               <div class="pb-6 flex flex-col flex-auto items-start{% if section.settings.column_align == 'center' %} text-center{% endif %}">
                 {%- if block.settings.heading != blank -%}
-                  <div class="pl-6 pr-6 card__title-wrapper w-full" style="background-color: {{ block.settings.heading_bg_color }};">
-                    <h3 class="h6 card__title" style="color: {{ block.settings.heading_text_color }};">{{ block.settings.heading | escape }}</h3>
+                  <div
+                    class="pl-6 pr-6 card__title-wrapper w-full"
+                    style="background-color: {{ block.settings.heading_bg_color }};"
+                  >
+                    <h3 class="h6 card__title" style="color: {{ block.settings.heading_text_color }};">
+                      {{ block.settings.heading | escape }}
+                    </h3>
                   </div>
                 {%- endif -%}
 
-               
-                  <ul class="pl-6 pr-6 card__link-list w-full flex-auto" role="list">
-                    {%- for link in block.settings.menu.links -%}
-                      <li class="aaaa">
-                        <a href="{{ link.url }}" class="card__link-list-item block border-bottom text-inherit hover:underline">{{ link.title }}</a>
-                      </li>
-                    {%- endfor -%}
-                  </ul>
-               
-                  <ul class="pl-6 pr-6 card__link-list w-full flex-auto" role="list">
-          {% if block.settings.heading == "FEATURES"  %}
-                      {% assign icons = product.metafields.custom.features.value %}
-        {% if icons != empty %}
-        {% for icon in icons %}
-          <div class="grid__item grid__item--one-third product__ingredients-main">
-            <div class="product__ingredients-contents flex">
-              <div class="product_meta_image">
-        <li class="bbb">
-            <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ icon }}</span>
-        </li>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-          {% endif %}
-            {% endif %}
+                <ul class="pl-6 pr-6 card__link-list w-full flex-auto" role="list">
+                  {%- for link in block.settings.menu.links -%}
+                    <li class="aaaa">
+                      <a
+                        href="{{ link.url }}"
+                        class="card__link-list-item block border-bottom text-inherit hover:underline"
+                      >
+                        {{- link.title -}}
+                      </a>
+                    </li>
+                  {%- endfor -%}
+                </ul>
 
-              {% if block.settings.heading == "ADVANTAGES"  %}
-                      {% assign icons = product.metafields.custom.advantages.value %}
-        {% if icons != empty %}
-        {% for icon in icons %}
-          <div class="grid__item grid__item--one-third product__ingredients-main">
-            <div class="product__ingredients-contents flex">
-              <div class="product_meta_image">
-        <li class="bbb">
-            <span class="card__link-list-item block border-bottom text-inherit hover:underline vvvvv">{{ icon }}</span>
-        </li>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-          {% endif %}
-            {% endif %}
+                <ul class="pl-6 pr-6 card__link-list w-full flex-auto" role="list">
+                  {% if block.settings.heading == 'FEATURES' %}
+                    {% assign icons = product.metafields.custom.features.value %}
+                    {% if icons != empty %}
+                      {% for icon in icons %}
+                        <div class="grid__item grid__item--one-third product__ingredients-main">
+                          <div class="product__ingredients-contents flex">
+                            <div class="product_meta_image">
+                              <li class="bbb">
+                                <span class="card__link-list-item block border-bottom text-inherit hover:underline">
+                                  {{- icon -}}
+                                </span>
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                      {% endfor %}
+                    {% endif %}
+                  {% endif %}
+                  {% if block.settings.heading == 'ADVANTAGES' %}
+                    {% assign icons = product.metafields.custom.advantages.value %}
+                    {% if icons != empty %}
+                      {% for icon in icons %}
+                        <div class="grid__item grid__item--one-third product__ingredients-main">
+                          <div class="product__ingredients-contents flex">
+                            <div class="product_meta_image">
+                              <li class="bbb">
+                                <span class="card__link-list-item block border-bottom text-inherit hover:underline vvvvv">
+                                  {{- icon -}}
+                                </span>
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                      {% endfor %}
+                    {% endif %}
+                  {% endif %}
 
-              {% if block.settings.heading == "BENEFITS"  %}
-                      {% assign icons = product.metafields.custom.benefits.value %}
-        {% if icons != empty %}
-        {% for icon in icons %}
-          <div class="grid__item grid__item--one-third product__ingredients-main">
-            <div class="product__ingredients-contents flex">
-              <div class="product_meta_image">
-        <li class="bbb">
-            <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ icon }}</span>
-        </li>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-          {% endif %}
-            {% endif %}
-
-                    
-                      <!-- <li class="bbb">
-                        <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing1 }}</span>
-          <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing2 }}</span>
-          <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing3 }}</span>
-          <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing4 }}</span>
-          <span class="card__link-list-item block border-bottom text-inherit hover:underline">{{ block.settings.subheaing5 }}</span>
-                      </li> -->
-                    
-                  </ul>
-         
+                  {% if block.settings.heading == 'BENEFITS' %}
+                    {% assign icons = product.metafields.custom.benefits.value %}
+                    {% if icons != empty %}
+                      {% for icon in icons %}
+                        <div class="grid__item grid__item--one-third product__ingredients-main">
+                          <div class="product__ingredients-contents flex">
+                            <div class="product_meta_image">
+                              <li class="bbb">
+                                <span class="card__link-list-item block border-bottom text-inherit hover:underline">
+                                  {{- icon -}}
+                                </span>
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                      {% endfor %}
+                    {% endif %}
+                  {% endif %}
+                </ul>
 
                 {%- if block.settings.button_label != blank -%}
                   <div class="pl-6 pr-6 mt-6 w-full">
-                    <a {% if block.settings.button_link != blank %}href="{{ block.settings.button_link }}"{% else %}role="link" aria-disabled="true"{% endif %} {% if block.settings.button_label != blank %} class="flex items-center text-current{% if section.settings.column_align == 'center' %} w-full justify-center{% endif %}"{% endif %}>
-                      <span class="card__button btn {{ section.settings.button_style }} btn--icon has-ltr-icon">{%- render 'icon-arrow-right' -%}</span>
+                    <a
+                      {% if block.settings.button_link != blank %}
+                        href="{{ block.settings.button_link }}"
+                      {% else %}
+                        role="link" aria-disabled="true"
+                      {% endif %}
+                      {% if block.settings.button_label != blank %}
+                        class="flex items-center text-current{% if section.settings.column_align == 'center' %} w-full justify-center{% endif %}"
+                      {% endif %}
+                    >
+                      <span class="card__button btn {{ section.settings.button_style }} btn--icon has-ltr-icon">
+                        {%- render 'icon-arrow-right' -%}
+                      </span>
                       {%- if block.settings.button_label != blank -%}
                         <span class="pl-4 pr-4 text-h6 mb-0">{{- block.settings.button_label | escape -}}</span>
                       {%- endif -%}
@@ -214,20 +245,30 @@
     </div>
 
     {%- if carousel -%}
-          </div>
-          {%- if settings.slider_show_arrows != 'never' -%}
-            <div class="slider-nav absolute top-middle end {% if settings.slider_show_arrows == 'hover' %}slider-nav--show-on-hover no-hover-hidden {% endif %}hidden md:block no-js-hidden">
-              <button type="button" class="slider-nav__btn tap-target btn {{ settings.slider_button_style }} has-ltr-icon" name="next" aria-controls="slider-{{ section.id }}">
-                <span class="visually-hidden">{{ 'general.slider.next' | t }}</span>
-                {% render 'icon-chevron-right' %}
-              </button>
-              <button type="button" class="slider-nav__btn tap-target btn {{ settings.slider_button_style }} has-ltr-icon" name="prev" aria-controls="slider-{{ section.id }}">
-                <span class="visually-hidden">{{ 'general.slider.previous' | t }}</span>
-                {% render 'icon-chevron-left' %}
-              </button>
-            </div>
-          {%- endif -%}
+      </div>
+      {%- if settings.slider_show_arrows != 'never' -%}
+        <div class="slider-nav absolute top-middle end {% if settings.slider_show_arrows == 'hover' %}slider-nav--show-on-hover no-hover-hidden {% endif %}hidden md:block no-js-hidden">
+          <button
+            type="button"
+            class="slider-nav__btn tap-target btn {{ settings.slider_button_style }} has-ltr-icon"
+            name="next"
+            aria-controls="slider-{{ section.id }}"
+          >
+            <span class="visually-hidden">{{ 'general.slider.next' | t }}</span>
+            {% render 'icon-chevron-right' %}
+          </button>
+          <button
+            type="button"
+            class="slider-nav__btn tap-target btn {{ settings.slider_button_style }} has-ltr-icon"
+            name="prev"
+            aria-controls="slider-{{ section.id }}"
+          >
+            <span class="visually-hidden">{{ 'general.slider.previous' | t }}</span>
+            {% render 'icon-chevron-left' %}
+          </button>
         </div>
+      {%- endif -%}
+      </div>
       </carousel-slider>
     {%- endif -%}
   </div>
