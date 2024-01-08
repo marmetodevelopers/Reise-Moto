@@ -162,5 +162,5 @@
 .flickity-enabled.is-draggable .flickity-viewport{
   height: 50rem !important; /* it was comming from the flikity so here i have used the important */
 .product_card_items video{
-  height: 50rem;
+  height: 60rem;
 }
