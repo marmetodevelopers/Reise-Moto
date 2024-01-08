@@ -2,14 +2,12 @@
 {{ 'flikity.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'flikity.js' | asset_url }}" defer="defer"></script>
  
-<div class="">
-  <div class="">
+<div class="splide">
+  <div class="splide__track">
     <div
-      class="main-carousel"
-      data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": 5000, "prevNextButtons": false,"fullscreen": true }'
-    >
+      class="splide__list splider_ul_container">
       {% for block in section.blocks %}
-        <div class="">
+        <div class="splide__slide grid__item product_card_items">
           <a href="{{block.settings.button_link_two}}">
           <div class="">
               {% assign mobile_image = block.settings.image_mobile | default: block.settings.image %}
