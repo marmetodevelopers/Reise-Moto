@@ -1616,62 +1616,6 @@
         "tint_opacity": 20
       }
     },
-    "ae056cb1-9f30-4744-afdd-e7eb28d39507": {
-      "type": "multi-column",
-      "blocks": {
-        "template--21171977945382__ae056cb1-9f30-4744-afdd-e7eb28d39507-column-1": {
-          "type": "column",
-          "settings": {
-            "enable_media": true,
-            "media_scale": 100,
-            "heading": "Column",
-            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--21171977945382__ae056cb1-9f30-4744-afdd-e7eb28d39507-column-2": {
-          "type": "column",
-          "settings": {
-            "enable_media": true,
-            "media_scale": 100,
-            "heading": "Column",
-            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--21171977945382__ae056cb1-9f30-4744-afdd-e7eb28d39507-column-3": {
-          "type": "column",
-          "settings": {
-            "enable_media": true,
-            "media_scale": 100,
-            "heading": "Column",
-            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21171977945382__ae056cb1-9f30-4744-afdd-e7eb28d39507-column-1",
-        "template--21171977945382__ae056cb1-9f30-4744-afdd-e7eb28d39507-column-2",
-        "template--21171977945382__ae056cb1-9f30-4744-afdd-e7eb28d39507-column-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Multi-column",
-        "heading_align": "text-start",
-        "button_label": "",
-        "button_link": "",
-        "layout": "carousel",
-        "column_size": "medium",
-        "column_align": "left",
-        "image_ratio": "1",
-        "color_scheme": "1",
-        "button_style": "btn btn--secondary"
-      }
-    },
     "4385557a-530a-4bbb-bc22-23d0815e7662": {
       "type": "link-lists",
       "blocks": {
@@ -1991,7 +1935,6 @@
     "58a32ef9-3ca6-42be-827e-d8d240e86d74",
     "f2bb759c-fac0-4722-9257-61cd1c6922e0",
     "094efb86-5a24-49e5-b3f6-6857491acedd",
-    "ae056cb1-9f30-4744-afdd-e7eb28d39507",
     "4385557a-530a-4bbb-bc22-23d0815e7662",
     "6ab69dea-2ead-4983-aecb-92386b7f1430",
     "3e59675b-6856-4a54-b60e-661599fd7c18"
