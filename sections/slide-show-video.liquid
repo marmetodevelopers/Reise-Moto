@@ -160,7 +160,18 @@
           {%- else -%}
             <div class="image-banner__image media media--has-overlay absolute top-0 left-0 w-full h-full has-motion">
           {%- endif -%}
+<div class="video_picker">
+        {{
+                      block.settings.image_desktop
+                      | video_tag:
+                        autoplay: true,
+                        loop: section.settings.enable_video_looping,
+                        controls: true,
+                        muted: true
+                    }}
 
+        </div>
+          
           {%- if img != blank -%}
             {%- liquid
               if section.settings.full_width
