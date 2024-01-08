@@ -1,7 +1,7 @@
-{% comment %} {{ 'slide-video.css' | asset_url | stylesheet_tag }} {% endcomment %}
-{{ 'flikity.css' | asset_url | stylesheet_tag }}
+ {{ 'slide-video.css' | asset_url | stylesheet_tag }}
+{% comment %} {{ 'flikity.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'flikity.js' | asset_url }}" defer="defer"></script>
- 
+ {% endcomment %}
 <div class="splide">
   <div class="splide__track">
     <div
@@ -48,6 +48,32 @@
     </div>
   </div>
 </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+  var splide;
+
+  function initializeSplide() {
+    var perPage = window.innerWidth > 749 ? 3 : 2; // Show 3 slides on desktop, 2 on mobile
+    splide = new Splide('.splide', {
+      perPage: perPage,
+      rewind: true,
+    });
+
+    splide.mount();
+  }
+
+  // Initialize the Splide slider on page load
+  initializeSplide();
+
+  // Update the Splide slider when the window is resized
+  window.addEventListener('resize', function () {
+    splide.destroy(); // Destroy the existing Splide instance
+    initializeSplide(); // Initialize a new instance with the updated perPage value
+  });
+</script>
+
 
 {% style %}
     {% for block in section.blocks %}
