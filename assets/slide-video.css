@@ -148,6 +148,11 @@
   }
 }
 
+.slideshow_image_container.h-full video{
+   max-width: 100%;
+  height: auto;
+}
+
 .slideshow__wrapper {
   background: #fff9e3;
 }
