@@ -117,7 +117,7 @@
     .flickity-page-dots
     .dot {
     margin: 0 10px;
-    background: #a7a9ac;
+    background: black;
   }
 
   .slideshow__wrapper_container.flickity-enabled.is-draggable .dot.is-selected {
