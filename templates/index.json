@@ -1694,7 +1694,6 @@
           "type": "slider-show",
           "settings": {
             "image": "shopify:\/\/files\/videos\/Urban.mp4",
-            "image_mobile": "shopify:\/\/files\/videos\/Touring.mp4",
             "caption_text": "",
             "caption_text_color": "#c5c5c5",
             "heading_text": "",
