@@ -14,14 +14,24 @@
           <div class="slideshow_image_container h-full">
               {% assign mobile_image = block.settings.image_mobile | default: block.settings.image %}
               <!-- {% render 'image' class = 'image' mobileSrc: block.settings.image_mobile, desktopSrc: block.settings.image %} -->
-               {{
+               {% comment %} {{
                      block.settings.image_mobile
                       | video_tag:
                         autoplay: true,
                         loop: section.settings.enable_video_looping,
                         controls: true,
                         muted: true
-                    }}
+                    }} {% endcomment %}
+            {%- assign video_url = block.settings.image_mobile -%}
+{% if video_url != blank %}
+  <video autoplay loop muted controls>
+    <source src="{{ video_url }}" type="video/mp4">
+  
+  </video>
+{% else %}
+
+  <p>No video available</p>
+{% endif %}
                  
           </div>
         </a>
