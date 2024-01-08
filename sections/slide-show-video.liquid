@@ -117,27 +117,20 @@
   <slide-show class="block relative overflow-hidden" role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" aria-label="{{ section.settings.accessibility_info | escape }}" data-autoplay="{{ section.settings.autoplay }}" data-speed="{{ section.settings.autoplay_speed }}" data-transition="{{ section.settings.transition }}">
     <div class="slideshow flex" id="slideshow-{{ section.id }}" aria-live="polite" aria-atomic="true">
       {%- for block in section.blocks -%}
-        {%- liquid
-          assign img = block.settings.image_desktop
-          assign m_img = block.settings.image_mobile
-          assign overlay_position = block.settings.overlay_position | split: ' '
-          assign lazy_load = true
-          if forloop.first and section.settings.prevent_animation
-            assign lazy_load = false
-          endif
+  
+  assign video_url = block.settings.image_desktop 
 
-          if color_scheme == "white"
-            assign brightness = block.settings.transparent_content_color | color_brightness
-            assign alpha = block.settings.transparent_content_color | color_extract: 'alpha'
-            if brightness < 190 and alpha > 0
-              assign transparent_text_contrast = "255 255 255"
-              assign transparent_hover_color = block.settings.transparent_content_color | color_lighten: 10
-            else
-              assign transparent_text_contrast = "0 0 0"
-              assign transparent_hover_color = block.settings.transparent_content_color | color_darken: 10
-            endif
-          endif
-        -%}
+
+  {% if video_url %}
+    <video controls>
+      <source src="{{ video_url }}" type="video/mp4"> 
+      Your browser does not support the video tag.
+    </video>
+  {% else %}
+  
+    <p>No video available</p>
+  {% endif %}
+
 
         {%- if color_scheme == "white" -%}
           {%- capture style -%}
