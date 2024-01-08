@@ -10,7 +10,7 @@
         <div class="splide__slide grid__item product_card_items">
          
               {% assign mobile_image = block.settings.image_mobile | default: block.settings.image %}
-              <!-- {% render 'image' class = 'image' mobileSrc: block.settings.image_mobile, desktopSrc: block.settings.image %} -->
+             {% comment %}  {% render 'image' class = 'image' mobileSrc: block.settings.image_mobile, desktopSrc: block.settings.image %}  {% endcomment %}
                {{
                      block.settings.image_mobile
                       | video_tag:
