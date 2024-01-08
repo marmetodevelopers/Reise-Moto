@@ -1,7 +1,4 @@
  {{ 'slide-video.css' | asset_url | stylesheet_tag }}
-{% comment %} {{ 'flikity.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'flikity.js' | asset_url }}" defer="defer"></script>
- {% endcomment %}
 <div class="splide">
   <div class="splide__track">
     <ul class="splide__list splide_ul_container">
@@ -13,7 +10,6 @@
     </ul>
   </div>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
@@ -22,9 +18,7 @@
       rewind: true,
       width: '100%', // Set slide width to 100%
     });
-
     splide.mount();
-
     // Update the Splide slider when the window is resized
     window.addEventListener('resize', function () {
       splide.destroy(); // Destroy the existing Splide instance
@@ -37,48 +31,6 @@
     });
   });
 </script>
-
-
-
-{% style %}
-    {% for block in section.blocks %}
-      .caption-{{ block.id }}{
-        color: {{ block.settings.caption_text_color}};
-      }
-      .btn-{{ block.id }}{
-        color: {{ block.settings.btn-text-color}};
-        background: {{ block.settings.btn-background-color}};
-      }
-      .text-heading-{{ block.id}}{
-        color: {{ block.settings.heading_text_color}};
-        font-size: {{ block.settings.font_size}}px;
-        font-weight: {{ block.settings.font_weight}};
-      }
-
-    {% endfor %}
-    @media only screen and (max-width:749px) {
-      {% for block in section.blocks %}
-        .btn-{{ block.id }}{
-          width: 50%;
-        }
-        .paragraph-{{ block.id }}{
-          color: {{ block.settings.paragraph_text_color}};
-        }
-        .text-heading-{{ block.id}}{
-          font-size: {{ block.settings.mobile_font_size}}px;
-          font-weight: {{ block.settings.mobile_font_weight}};
-        }
-      {% endfor %}
-    }
-    @media only screen and (min-width:750px) {
-      {% for block in section.blocks %}
-        .paragraph-{{ block.id }}{
-          color: {{ block.settings.paragraph_text_color}};
-      }
-
-    {% endfor %}
-  }
-{% endstyle %}
 
 {% schema %}
 {
