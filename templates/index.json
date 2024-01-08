@@ -1813,7 +1813,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
@@ -1847,7 +1847,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
@@ -1881,7 +1881,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
@@ -1911,6 +1911,53 @@
         "accessibility_info": "",
         "prevent_animation": true
       }
+    },
+    "8f802b3e-f0da-495c-ac99-a0ee050281e6": {
+      "type": "video-image-slider",
+      "blocks": {
+        "4ab25d27-e905-4325-bd4a-27072a89ac1c": {
+          "type": "carousel_block",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Touring.mp4",
+            "video_mobile": "shopify:\/\/files\/videos\/Urban.mp4",
+            "slide_heading": "Slide Heading",
+            "slide_heading_color_desktop": "#000000",
+            "slide_heading_color": "#000000",
+            "heading_size": "h1",
+            "slide_subheading": "",
+            "slide_subheading_color_desktop": "#000000",
+            "slide_subheading_color": "#000000",
+            "text_style": "body",
+            "caption": "",
+            "caption_color_deskptop": "#000000",
+            "caption_color_mobile": "#000000",
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_color_deskptop": "#000000",
+            "button_text_color_deskptop": "#fff",
+            "button_color_mobile": "#000000",
+            "button_text_color_mobile": "#fff",
+            "desktop_content_position": "middle-center",
+            "desktop_content_alignment": "left",
+            "text_alignment": false,
+            "button_alignment": false
+          }
+        }
+      },
+      "block_order": [
+        "4ab25d27-e905-4325-bd4a-27072a89ac1c"
+      ],
+      "settings": {
+        "enable_pagination": false,
+        "enable_arrows": true,
+        "enable_autoplay": false,
+        "autoplay_speed": 3,
+        "section-padding-top": 0,
+        "section-padding-bottom": 0,
+        "section-padding-top_mb": 0,
+        "section-padding-bottom_mb": 0,
+        "page_width": false
+      }
     }
   },
   "order": [
@@ -1937,6 +1984,7 @@
     "094efb86-5a24-49e5-b3f6-6857491acedd",
     "4385557a-530a-4bbb-bc22-23d0815e7662",
     "6ab69dea-2ead-4983-aecb-92386b7f1430",
-    "3e59675b-6856-4a54-b60e-661599fd7c18"
+    "3e59675b-6856-4a54-b60e-661599fd7c18",
+    "8f802b3e-f0da-495c-ac99-a0ee050281e6"
   ]
 }
