@@ -241,3 +241,6 @@ variant-picker.no-js-hidden,
 .product-info__block.product-options.tyres_product_page a#viewMoreButton{
   display: none;
 }
+.product_key_values p{
+  color: black;
+}
