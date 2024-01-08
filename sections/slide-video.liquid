@@ -8,8 +8,7 @@
       class="splide__list splider_ul_container">
       {% for block in section.blocks %}
         <div class="splide__slide grid__item product_card_items">
-          <a href="{{block.settings.button_link_two}}">
-          <div class="">
+         
               {% assign mobile_image = block.settings.image_mobile | default: block.settings.image %}
               <!-- {% render 'image' class = 'image' mobileSrc: block.settings.image_mobile, desktopSrc: block.settings.image %} -->
                {{
@@ -21,9 +20,7 @@
                         muted: true
                     }}
                  
-          </div>
-        </a>
-        
+       
         </div>
       {% endfor %}
     </div>
