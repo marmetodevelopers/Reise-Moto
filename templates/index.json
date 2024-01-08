@@ -1907,11 +1907,46 @@
             "bg_color": "#070707",
             "bg_grad": ""
           }
+        },
+        "8887638a-ff83-4e52-a3cb-6f6c50f62c98": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/files\/videos\/Off road.mp4",
+            "image_mobile": "shopify:\/\/files\/videos\/Off road.mp4",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "Subheading",
+            "heading": "Slideshow",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "<p>Share announcements and information with your customers and welcome them to your store.<\/p>",
+            "enlarge_text": true,
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
         }
       },
       "block_order": [
         "template--21747923190054__3e59675b-6856-4a54-b60e-661599fd7c18-slide-1",
-        "template--21747923190054__3e59675b-6856-4a54-b60e-661599fd7c18-slide-2"
+        "template--21747923190054__3e59675b-6856-4a54-b60e-661599fd7c18-slide-2",
+        "8887638a-ff83-4e52-a3cb-6f6c50f62c98"
       ],
       "settings": {
         "height_mode": "auto",
