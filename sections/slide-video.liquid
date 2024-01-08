@@ -2,16 +2,16 @@
 {{ 'flikity.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'flikity.js' | asset_url }}" defer="defer"></script>
  
-<div class="slideshow_container">
-  <div class="slideshow__wrapper">
+<div class="">
+  <div class="">
     <div
-      class="slideshow__wrapper_container"
+      class=""
       data-flickity='{ "cellAlign": "left", "contain": true }'
     >
       {% for block in section.blocks %}
-        <div class="slideshow__item carousel-cell">
+        <div class="">
           <a href="{{block.settings.button_link_two}}">
-          <div class="slideshow_image_container h-full">
+          <div class="">
               {% assign mobile_image = block.settings.image_mobile | default: block.settings.image %}
               <!-- {% render 'image' class = 'image' mobileSrc: block.settings.image_mobile, desktopSrc: block.settings.image %} -->
                {{
