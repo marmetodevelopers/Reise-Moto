@@ -75,15 +75,15 @@
         "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Here at Enterprise, it's all about mountain sports. We share the same experiences that you do on rock, ice, and snow and these experiences push us to make the best equipment and apparel possible for our worldwide community.",
-            "heading_size": "h4",
+            "heading": "When The Rubber meets the Road",
+            "heading_size": "h2",
             "heading_h1": true
           }
         },
         "template--21514492903718__5a3c0aa5-f2df-4645-8d91-19de443dbd8e-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our passion for innovation transforms the way we pursue mountain sports—a heritage that began with a backyard anvil and hammer and continues today, hitting milestones along the way with revolutionary equipment such as the world’s first wire gate carabiner, or our cornerstone Camalots.<\/p>",
+            "text": "<p>Welcome to the world of Reise two-wheeler tyres. Reise is a German word for “Trip” made with Indo-European R&D and technology. It inspires confidence. Confidence in you, your ability, your machine, and your tyres.<\/p>",
             "enlarge_text": true
           }
         },
@@ -213,6 +213,7 @@
       "block_order": [
         "template--21514492903718__e78af6f6-6a92-401b-a9a2-8530cd028ac0-text-1"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "xsmall",
         "spacing": 40,
@@ -230,7 +231,7 @@
         "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Media with text",
+            "heading": "Pedigree  - Where we come From",
             "heading_size": "h3",
             "heading_h1": false
           }
@@ -238,7 +239,7 @@
         "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Mahansaria Group has expertise in speciality off-highway tyres for over 30 years. We manufacture Mitas, a globally respected brand with a 100-year legacy preferred by pros and enthusiasts.<\/p>",
             "enlarge_text": false
           }
         },
