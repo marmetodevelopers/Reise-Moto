@@ -702,6 +702,93 @@
         "text_align": "text-center",
         "color_scheme": "1"
       }
+    },
+    "73ac5384-a4b3-4a4a-9c21-c2503b96742f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rich text headline",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your store with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-subheading-1",
+        "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-heading-1",
+        "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-text-1",
+        "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-button-1"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "f34ade3f-63b4-4bd5-9854-770f67877259": {
+      "type": "video",
+      "blocks": {
+        "template--21747922960678__f34ade3f-63b4-4bd5-9854-770f67877259-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21747922960678__f34ade3f-63b4-4bd5-9854-770f67877259-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21747922960678__f34ade3f-63b4-4bd5-9854-770f67877259-heading-1",
+        "template--21747922960678__f34ade3f-63b4-4bd5-9854-770f67877259-text-1"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/Off road.mp4",
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "video_size": "md",
+        "video_autoplay": true,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
     }
   },
   "order": [
@@ -720,6 +807,8 @@
     "844fd269-3659-4ac5-871f-7bd5c518a084",
     "d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7",
     "5c05af60-8a02-4ebe-9041-75ccca43d556",
-    "3d64cf74-bdb6-4316-831c-40cb9859510d"
+    "3d64cf74-bdb6-4316-831c-40cb9859510d",
+    "73ac5384-a4b3-4a4a-9c21-c2503b96742f",
+    "f34ade3f-63b4-4bd5-9854-770f67877259"
   ]
 }
