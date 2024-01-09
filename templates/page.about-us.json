@@ -587,13 +587,13 @@
         "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "Pedigree"
           }
         },
         "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Rich text headline",
+            "heading": "Where WeCome from",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -725,6 +725,7 @@
       "blocks": {
         "template--21747922960678__5c05af60-8a02-4ebe-9041-75ccca43d556-subheading-1": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Subheading"
           }
@@ -864,6 +865,7 @@
       "blocks": {
         "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-subheading-1": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Subheading"
           }
