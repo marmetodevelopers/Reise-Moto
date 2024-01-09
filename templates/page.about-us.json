@@ -586,6 +586,7 @@
       "blocks": {
         "template--21747922960678__d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Video",
             "heading_size": "h1",
@@ -594,6 +595,7 @@
         },
         "template--21747922960678__d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
             "enlarge_text": true
