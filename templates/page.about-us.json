@@ -1050,6 +1050,57 @@
         "full_width": true,
         "prevent_animation": false
       }
+    },
+    "617fe54e-533e-4d50-b30e-531d51291a4e": {
+      "type": "background-video",
+      "blocks": {
+        "template--21747922960678__617fe54e-533e-4d50-b30e-531d51291a4e-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Background Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21747922960678__617fe54e-533e-4d50-b30e-531d51291a4e-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21747922960678__617fe54e-533e-4d50-b30e-531d51291a4e-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21747922960678__617fe54e-533e-4d50-b30e-531d51291a4e-heading-1",
+        "template--21747922960678__617fe54e-533e-4d50-b30e-531d51291a4e-text-1",
+        "template--21747922960678__617fe54e-533e-4d50-b30e-531d51291a4e-button-1"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/Off road.mp4",
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "video_height": "md",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "lazyload": true,
+        "prevent_animation": false
+      }
     }
   },
   "order": [
@@ -1075,6 +1126,7 @@
     "73ac5384-a4b3-4a4a-9c21-c2503b96742f",
     "55198aea-7de6-4444-999f-64287a598ab8",
     "f34ade3f-63b4-4bd5-9854-770f67877259",
-    "56b65147-05f7-4aab-8df9-83a124d9e085"
+    "56b65147-05f7-4aab-8df9-83a124d9e085",
+    "617fe54e-533e-4d50-b30e-531d51291a4e"
   ]
 }
