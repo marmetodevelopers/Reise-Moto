@@ -601,7 +601,7 @@
         "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your store with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Mahansaria Group has expertise in speciality off-highway tyres for over 30 years. We manufacture Mitas, a globally respected brand with a 100-year legacy preferred by pros and enthusiasts.<\/p>",
             "enlarge_text": true
           }
         },
@@ -727,13 +727,13 @@
           "type": "subheading",
           "disabled": true,
           "settings": {
-            "text": "Subheading"
+            "text": "Manufacturing Craft"
           }
         },
         "template--21747922960678__5c05af60-8a02-4ebe-9041-75ccca43d556-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Rich text headline",
+            "heading": "Manufacturing Craft",
             "heading_size": "h2",
             "heading_h1": false
           }
