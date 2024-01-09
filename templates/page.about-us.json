@@ -859,6 +859,57 @@
         "prevent_animation": false
       }
     },
+    "55198aea-7de6-4444-999f-64287a598ab8": {
+      "type": "background-video",
+      "blocks": {
+        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Background Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-heading-1",
+        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-text-1",
+        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-button-1"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/Performance.mp4",
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "video_height": "md",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "lazyload": true,
+        "prevent_animation": false
+      }
+    },
     "f34ade3f-63b4-4bd5-9854-770f67877259": {
       "type": "video",
       "blocks": {
@@ -884,6 +935,7 @@
         "template--21747922960678__f34ade3f-63b4-4bd5-9854-770f67877259-heading-1",
         "template--21747922960678__f34ade3f-63b4-4bd5-9854-770f67877259-text-1"
       ],
+      "disabled": true,
       "settings": {
         "video_shopify": "shopify:\/\/files\/videos\/Off road.mp4",
         "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -892,53 +944,6 @@
         "video_autoplay": true,
         "text_align": "text-center",
         "color_scheme": "1"
-      }
-    },
-    "55198aea-7de6-4444-999f-64287a598ab8": {
-      "type": "background-video",
-      "blocks": {
-        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Background Video",
-            "heading_size": "h1",
-            "heading_h1": false
-          }
-        },
-        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
-            "enlarge_text": true
-          }
-        },
-        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn btn--secondary"
-          }
-        }
-      },
-      "block_order": [
-        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-heading-1",
-        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-text-1",
-        "template--21747922960678__55198aea-7de6-4444-999f-64287a598ab8-button-1"
-      ],
-      "settings": {
-        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "video_description": "",
-        "video_height": "md",
-        "overlay_text_align": "text-center",
-        "overlay_position": "justify-center items-center",
-        "mob_center_text": true,
-        "color_scheme": "white",
-        "transparent_content_color": "#ffffff",
-        "tint_color": "#000000",
-        "tint_opacity": 40,
-        "lazyload": true,
-        "prevent_animation": false
       }
     }
   },
@@ -962,7 +967,7 @@
     "5c05af60-8a02-4ebe-9041-75ccca43d556",
     "3d64cf74-bdb6-4316-831c-40cb9859510d",
     "73ac5384-a4b3-4a4a-9c21-c2503b96742f",
-    "f34ade3f-63b4-4bd5-9854-770f67877259",
-    "55198aea-7de6-4444-999f-64287a598ab8"
+    "55198aea-7de6-4444-999f-64287a598ab8",
+    "f34ade3f-63b4-4bd5-9854-770f67877259"
   ]
 }
