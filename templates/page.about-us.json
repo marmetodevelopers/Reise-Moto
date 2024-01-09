@@ -140,7 +140,6 @@
         "template--21514492903718__8732b8b6-568f-4741-aedb-479607f380b9-heading-1",
         "template--21514492903718__8732b8b6-568f-4741-aedb-479607f380b9-text-1"
       ],
-      "disabled": true,
       "settings": {
         "video_shopify": "shopify:\/\/files\/videos\/Urban.mp4",
         "video_external": "https:\/\/youtu.be\/gLz0XVtDX6A",
@@ -186,6 +185,7 @@
         "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-text-1",
         "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-button-1"
       ],
+      "disabled": true,
       "settings": {
         "video_external": "https:\/\/youtu.be\/caeMyMFEYvU",
         "video_description": "",
@@ -262,6 +262,7 @@
         "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-text-1",
         "template--21514492903718__5ab543ea-603b-4281-9ae5-e41f12790533-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1cfc23db-e82c-49af-b6e8-98ae54b5c4df_heritage-pull-quote-v2_CROP--K98UZvHI-transformed_ALT_LO.jpg",
         "video_external": "",
@@ -311,6 +312,7 @@
         "template--21514492903718__64127b1c-3665-4231-94af-1bc3562b88e4-text-1",
         "template--21514492903718__64127b1c-3665-4231-94af-1bc3562b88e4-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/reise_website_subbrand_cards_with_revised_subheadline_copy-08.jpg",
         "url": "",
@@ -369,6 +371,7 @@
         "template--21514492903718__c226c63e-f85d-4df8-9cd5-bb0ed1330a67-text-1",
         "template--21514492903718__c226c63e-f85d-4df8-9cd5-bb0ed1330a67-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/spidi-dp-progressive-leather-p229-011.png",
         "video_external": "",
@@ -454,6 +457,7 @@
         "template--21514492903718__bcd8171c-51a7-4a48-9304-7663dfc22a47-column-2",
         "template--21514492903718__bcd8171c-51a7-4a48-9304-7663dfc22a47-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_align": "text-start",
@@ -505,6 +509,7 @@
         "template--21514492903718__26a29111-edc5-4635-ae12-0f76cbaa44b6-text-1",
         "template--21514492903718__26a29111-edc5-4635-ae12-0f76cbaa44b6-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/62c218db-eb16-46ca-9e39-192d6cbea657_adam_c_20200724_12356_LO.jpg",
         "url": "",
