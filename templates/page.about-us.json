@@ -772,6 +772,57 @@
         "prevent_animation": false
       }
     },
+    "7fe4774a-5659-4f7c-b55c-f1eb77c0839f": {
+      "type": "background-video",
+      "blocks": {
+        "template--21747922960678__7fe4774a-5659-4f7c-b55c-f1eb77c0839f-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Background Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21747922960678__7fe4774a-5659-4f7c-b55c-f1eb77c0839f-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21747922960678__7fe4774a-5659-4f7c-b55c-f1eb77c0839f-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21747922960678__7fe4774a-5659-4f7c-b55c-f1eb77c0839f-heading-1",
+        "template--21747922960678__7fe4774a-5659-4f7c-b55c-f1eb77c0839f-text-1",
+        "template--21747922960678__7fe4774a-5659-4f7c-b55c-f1eb77c0839f-button-1"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/Off road.mp4",
+        "video_external": "",
+        "video_description": "",
+        "video_height": "md",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "lazyload": true,
+        "prevent_animation": false
+      }
+    },
     "3d64cf74-bdb6-4316-831c-40cb9859510d": {
       "type": "video",
       "blocks": {
@@ -797,6 +848,7 @@
         "template--21747922960678__3d64cf74-bdb6-4316-831c-40cb9859510d-heading-1",
         "template--21747922960678__3d64cf74-bdb6-4316-831c-40cb9859510d-text-1"
       ],
+      "disabled": true,
       "settings": {
         "video_shopify": "shopify:\/\/files\/videos\/Performance.mp4",
         "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -965,6 +1017,7 @@
     "329f5f22-77d1-48af-8677-f84a061cb7fc",
     "d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7",
     "5c05af60-8a02-4ebe-9041-75ccca43d556",
+    "7fe4774a-5659-4f7c-b55c-f1eb77c0839f",
     "3d64cf74-bdb6-4316-831c-40cb9859510d",
     "73ac5384-a4b3-4a4a-9c21-c2503b96742f",
     "55198aea-7de6-4444-999f-64287a598ab8",
