@@ -155,6 +155,7 @@
       "blocks": {
         "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Background Video",
             "heading_size": "h1",
@@ -163,6 +164,7 @@
         },
         "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
             "enlarge_text": true
@@ -170,6 +172,7 @@
         },
         "template--21514492903718__69cd29c7-3006-4551-974f-c6e1287bc1c1-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "",
             "button_link": "",
