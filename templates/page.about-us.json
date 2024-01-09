@@ -142,6 +142,7 @@
       ],
       "disabled": true,
       "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/Urban.mp4",
         "video_external": "https:\/\/youtu.be\/gLz0XVtDX6A",
         "video_description": "",
         "video_size": "md",
