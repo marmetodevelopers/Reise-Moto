@@ -865,15 +865,14 @@
       "blocks": {
         "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-subheading-1": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "Subheading"
+            "text": "Our Quality"
           }
         },
         "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Rich text headline",
+            "heading": "Make, Improve,Ride,Repeat",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -881,7 +880,7 @@
         "template--21747922960678__73ac5384-a4b3-4a4a-9c21-c2503b96742f-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your store with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>At Reise, we constantly improve to create delight for riders. Our tyres use proven European technology and extensive riding experience on Indian terrain to provide safety, fuel efficiency, and noise reduction while minimising emissions. We prioritise \"next practices\" to push beyond the \"best practices.\"<\/p>",
             "enlarge_text": true
           }
         },
@@ -999,6 +998,58 @@
         "text_align": "text-center",
         "color_scheme": "1"
       }
+    },
+    "56b65147-05f7-4aab-8df9-83a124d9e085": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21747922960678__56b65147-05f7-4aab-8df9-83a124d9e085-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Our Team"
+          }
+        },
+        "template--21747922960678__56b65147-05f7-4aab-8df9-83a124d9e085-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made forRidersby Riders",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "template--21747922960678__56b65147-05f7-4aab-8df9-83a124d9e085-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reise Tyres combines legacy and experience to develop highly specialised products for riders, prioritising consumer intimacy. Our team's strong pedigree in the off-roading segment enables us to be thought leaders and inspire riders to take on new roads with confidence.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21747922960678__56b65147-05f7-4aab-8df9-83a124d9e085-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21747922960678__56b65147-05f7-4aab-8df9-83a124d9e085-subheading-1",
+        "template--21747922960678__56b65147-05f7-4aab-8df9-83a124d9e085-heading-1",
+        "template--21747922960678__56b65147-05f7-4aab-8df9-83a124d9e085-text-1",
+        "template--21747922960678__56b65147-05f7-4aab-8df9-83a124d9e085-button-1"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
     }
   },
   "order": [
@@ -1023,6 +1074,7 @@
     "3d64cf74-bdb6-4316-831c-40cb9859510d",
     "73ac5384-a4b3-4a4a-9c21-c2503b96742f",
     "55198aea-7de6-4444-999f-64287a598ab8",
-    "f34ade3f-63b4-4bd5-9854-770f67877259"
+    "f34ade3f-63b4-4bd5-9854-770f67877259",
+    "56b65147-05f7-4aab-8df9-83a124d9e085"
   ]
 }
