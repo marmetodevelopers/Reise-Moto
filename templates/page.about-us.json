@@ -401,6 +401,7 @@
       "block_order": [
         "template--21514492903718__40d3c10e-a02c-4bb8-b894-1390adf5481e-text-1"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "medium",
         "spacing": 40,
@@ -527,6 +528,91 @@
         "tint_opacity": 40,
         "prevent_animation": false
       }
+    },
+    "844fd269-3659-4ac5-871f-7bd5c518a084": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rich text headline",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your store with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-subheading-1",
+        "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-heading-1",
+        "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-text-1",
+        "template--21747922960678__844fd269-3659-4ac5-871f-7bd5c518a084-button-1"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7": {
+      "type": "video",
+      "blocks": {
+        "template--21747922960678__d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--21747922960678__d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21747922960678__d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7-heading-1",
+        "template--21747922960678__d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7-text-1"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/Touring.mp4",
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "video_size": "md",
+        "video_autoplay": true,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
     }
   },
   "order": [
@@ -541,6 +627,8 @@
     "c226c63e-f85d-4df8-9cd5-bb0ed1330a67",
     "40d3c10e-a02c-4bb8-b894-1390adf5481e",
     "bcd8171c-51a7-4a48-9304-7663dfc22a47",
-    "26a29111-edc5-4635-ae12-0f76cbaa44b6"
+    "26a29111-edc5-4635-ae12-0f76cbaa44b6",
+    "844fd269-3659-4ac5-871f-7bd5c518a084",
+    "d47f9ca4-dd99-4d1c-865b-fa17ba0e0ab7"
   ]
 }
